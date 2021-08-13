@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,30 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
-<body>
+
+<body onload="startGame()">
 
     <header class="header">
         <h1>Ocean World Adventures</h1>
     </header>
 
-    <canvas></canvas>
+    <div class="images">
+        <img src="/assets/images/shark-1.png" alt="">
+    </div>
+    <div class="right-images">
+        <img src="/assets/images/fish-clown-png-clip-art-103174.png" alt="">   
+    </div>
+    <canvas>
+        <img src="/assets/images/cartoon-fish.png" alt="cartoon-fish">
+    </canvas>
 
-    <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">A</button>
+
+    <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">A
+        <div class="border"></div>
+    </button>
 
     <script src="/assets/js/app.js"></script>
-    
+
 </body>
+
 </html>
