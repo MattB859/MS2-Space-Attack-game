@@ -12,9 +12,10 @@ let gamespeed = 2;
 
 let temp = canvas.height - 90;
 
+// Custom code by developer
 function animate(){
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.fillRect(90, canvas.height - 90, 50, 50);
+    ctx.fillRect(10, canvas.height - 90, 50, 50);
     requestAnimationFrame(animate);
 }
 animate()
