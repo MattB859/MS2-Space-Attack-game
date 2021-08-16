@@ -15,4 +15,9 @@ function animate(){
     ctx.fillRect(10, 10, 50, 50);
     requestAnimationFrame(animate);
 }
+animate()
 
+window.addEventListener('keydown', function(e) {
+console.log(e.code)
+
+})
