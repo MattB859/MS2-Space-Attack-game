@@ -5,9 +5,10 @@
 }
 
 body{
-    background-color: #FFFFFF;
-    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #00ff80 100%);
+    /*background-color: #FFFFFF;
+    background: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #00ff80 100%);*/
     overflow: hidden;
+
 }
 
 .header{
@@ -25,20 +26,14 @@ canvas img{
 }
 
 canvas{  
-    background-color: skyblue;
-    border: 7px solid rgb(248, 248, 248);
-    border-radius: 2%;
-    background: url("/assets/images/ocean-1.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin: 50px auto;
+    background-color: rgb(218, 218, 218);
+    border: 2px solid rgb(0, 0, 0);
     position: absolute;
-    width: 800px;
-    height: 500px;
-    top: 20%;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 400px;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -47,9 +42,7 @@ button{
     margin: 50px auto;
     right: 0;
     left: 0;
-    top: 800px;
-    z-index: 30;
-    box-shadow: 1px 6px 2px black;
+    top: 700px;
     color: white;
     font-size: 20px;
     text-align: center;  
@@ -59,17 +52,4 @@ button{
     background: rgb(233, 67, 38);
 }
 
-.images img{
-    position: relative;
-    width: 21vw;
-    left: 50px;
-    top: 50px;
-}
 
-.right-images img{
-    position: relative;
-    width: 300px;
-    float: right;
-    bottom: 600px;
-    right: 80px;
-}
