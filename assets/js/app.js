@@ -10,14 +10,31 @@ let frame = 0;
 let score = 0;
 let gamespeed = 2;
 
+let temp = canvas.height - 90;
+
 function animate(){
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.fillRect(10, 10, 50, 50);
+    ctx.fillRect(90, canvas.height - 90, 50, 50);
     requestAnimationFrame(animate);
 }
 animate()
 
 window.addEventListener('keydown', function(e) {
-console.log(e.code)
+ if (e.code === 'Space') spacePressed = true;
 
-})
+
+});
+window.addEventListener('keydown', function(e) {
+    if (e.code === 'Space') spacePressed = false;
+   });
+   
+// Custom code by developer
+window.addEventListener('mousedown', function(e) {
+    if (e.code === 'Click') spacePressed = true;
+
+});
+
+// Custom code by developer
+window.addEventListener('mouseup', function(e) {
+       if (e.code === 'Click') spacePressed = false;
+});
