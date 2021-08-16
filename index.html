@@ -12,24 +12,17 @@
 <body onload="startGame()">
 
     <header class="header">
-        <h1>Ocean World Adventures</h1>
+        <h1>Adventure World</h1>
     </header>
 
-    <div class="images">
-        <img src="/assets/images/shark-1.png" alt="">
-    </div>
-    <div class="right-images">
-        <img src="/assets/images/fish-clown-png-clip-art-103174.png" alt="">   
-    </div>
-    <canvas>
-        <img src="/assets/images/cartoon-fish.png" alt="cartoon-fish">
-    </canvas>
-
-
+    <canvas id="canvas"></canvas>
+     
     <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">A
         <div class="border"></div>
     </button>
 
+
+    <script src="/assets/js/obstacles.js"></script>
     <script src="/assets/js/app.js"></script>
 
 </body>
