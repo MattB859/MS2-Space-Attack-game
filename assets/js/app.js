@@ -14,13 +14,16 @@ let gamespeed = 2;
 // Custom code by developer 
  animate = () => {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    //ctx.fillRect(10, canvas.height - 90, 50, 50);
     bird.update();
     bird.draw();
+    handleParticles();
     requestAnimationFrame(animate);
+    angle+=0.12;
+    hue++;
 }
 animate();
 
+// Custom code by developer
 window.addEventListener('keydown', (e) => {
  if (e.code === 'Space') spacePressed = true;
 
@@ -29,4 +32,4 @@ window.addEventListener('keyup', (e) =>  {
     if (e.code === 'Space') spacePressed = false;
    });
    
-
+   
