@@ -19,3 +19,8 @@ class Particle {
         ctx.fill();
     }
 }
+
+function handleParticles(){
+    particlesArray.unshift(new Particle);
+    for
+}
