@@ -22,5 +22,5 @@ class Particle {
 
 function handleParticles(){
     particlesArray.unshift(new Particle);
-    for
+    for(let i = 0; i <)
 }
