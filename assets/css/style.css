@@ -5,9 +5,7 @@
 }
 
 body {
-    /*background-color: #FFFFFF;
-    background: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #00ff80 100%);*/
-    background-color: black;
+    background-color: rgb(12, 12, 12);
     overflow: hidden;
 
 }
@@ -15,19 +13,22 @@ body {
 .header {
     text-align: center;
     margin-top: 80px;
-    font-size: 50px;
-    color: rgb(241, 241, 241);
-    font-family: fantasy;
+    font-size: 40px;
+    color: rgb(226, 196, 26);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.logo {
+    width: 110px;
 }
 
 
 canvas {
-
-    background:url('/assets/images/Cloud-Background.png') center no-repeat;
+    background:url('/assets/images/alien-planet.jpg') center no-repeat;
     background-size: cover;
     /*background-color: rgb(91, 155, 250); */
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 2%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 1%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -68,7 +69,7 @@ button {
 @media only screen and (max-width: 500px){
     canvas{
         width: 90%;
-        height: 35%;
+        height: 40%;
     }
 
     .header{
