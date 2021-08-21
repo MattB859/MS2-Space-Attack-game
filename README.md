@@ -16,15 +16,15 @@ This is the main website for Bird Adventures. It is designed to be responsive an
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the game.
         2. As a First Time Visitor, I want to easily navigate throught the site to   find information.
-        3. As a First Time Visitor, I want to look for eye catching pictures.
-        4. As a First Time Visitor, I want the website and content to load fast.
-        5. As a First Time Visitor, I want to look for testimonials to see what other customer have felt about their services and to see if they are trusted, I also want to locate any social media links to see   their followings.
+        3. As a First Time Visitor, I want the game to be fun and interesting to play.
+        4. As a First Time Visitor, I want the website and game to load fast.
+        5. As a First Time Visitor, I want to see if new games will be added to the site in the fututre.
 
     -   ### Returning Visitor Goals 
 
-        1. As a Returning Visitor, I want to find the best way to get in contact with the restaurant for any questions I may have. 
+        1. As a Returning Visitor, I want to challenge myself to reach a higher score. 
         2. As a Returning Visitor, I want to see if there are any new updated information that i may find useful.
-        3. As a Returning Visitor, I want to find information on how to locate the restaurant. 
+        3. As a Returning Visitor, I want to find information on how to
 
 
     -   ### Frequent User Goals
@@ -35,5 +35,4 @@ This is the main website for Bird Adventures. It is designed to be responsive an
 
 -   ### Website Design 
 
-      
       
