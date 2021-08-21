@@ -1,12 +1,12 @@
 const obstaclesArray = [];
 
-class Obstacle {
+class Obstacle { 
     constructor() {
-        this.top = (Math.random() * canvas.height / 3) + 20;
-        this.bottom = (Math.random() * canvas.height / 3) + 20;
-        this.x = canvas.Width;
-        this.width = 20;
-        this.color = 'hsla(' + hue + ', 100%, 50%, 1)';
+        this.top = (Math.random() * canvas.height/3) + 20;
+        this.bottom = (Math.random() * canvas.height/3) + 20;
+        this.x = canvas.width;
+        this.width = 25;
+        this.color = 'black '
     }
     draw() {
         ctx.fillStyle = this.color;
@@ -17,9 +17,9 @@ class Obstacle {
         this.x -= gamespeed;
         this.draw();
     }
-}
-
-function handleObstacles() {
+}  
+   
+handleObstacles = () => {
 
     if (frame % 100 === 0) {
         obstaclesArray.unshift(new Obstacle);
@@ -31,3 +31,5 @@ function handleObstacles() {
         obstaclesArray.pop(obstaclesArray[0]);
     }
 }
+
+
