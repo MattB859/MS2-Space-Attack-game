@@ -1,6 +1,6 @@
-<h1 align="center">Bird Adventures</h1>
+<h1 align="center">Space Attack</h1>
 
-This is the main website for Bird Adventures. It is designed to be responsive and accessible on multiple devices, making it easy to navigate for new and existing visitors.
+This is the main website for Space Attack. It is designed to be responsive and accessible on multiple devices, making it easy to navigate for new and existing visitors.
 
 
 
@@ -50,6 +50,15 @@ This is the main website for Bird Adventures. It is designed to be responsive an
         <p align="center">
         <img src="./assets/images/header.png">
         </p>
+
+    -   ###   Mobile View
+
+        2. This is the layout for mobile and tablet devices when displayed vertically.
+
+        <p align="center">
+        <img width="250" height="500" src="./assets/images/mobile-view2.png">
+        </p>
+    
   
     -  ### Colour Scheme
 
@@ -61,7 +70,11 @@ This is the main website for Bird Adventures. It is designed to be responsive an
 
     - ### Typography
 
-    -  Google Fonts "Press Start 2P" font family is used for the header text it adds an authentic retro feel to the website. 
+        -  Google Fonts "Press Start 2P" font family is used for the header text it adds an authentic retro feel to the website.
+
+    <p align="center">
+    <img src="./assets/images/google-fonts.png">
+    </p>
 
     ## Technologies Used
 
@@ -88,11 +101,26 @@ This is the main website for Bird Adventures. It is designed to be responsive an
     1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
 
+## Credits
+
+-   ### Code
+
+    - The Code Institute material was the main source of information used to create this project.
+
+    - W3schools was used as a general source of knowledge and immensely helped when coding the game.
 
 
 - ### Content 
 
-     background taken from this sorce.
-    <a href="https://www.freepik.com/vectors/leaf">Leaf vector created by upklyak - www.freepik.com</a>
+    -  Psychological properties of colours text in the README.md was found - [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
-      
+    -  The main game background image was taken from.
+    <a href="https://www.freepik.com/vectors/leaf">vector created by upklyak - www.freepik.com</a>
+
+   
+-   ### Acknowledgements
+
+    - Tutor support at Code Institute for their support.
+
+    
+    
