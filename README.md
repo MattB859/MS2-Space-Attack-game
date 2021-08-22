@@ -43,8 +43,14 @@ This is the main website for Bird Adventures. It is designed to be responsive an
         <img width="400px" height="350px" src="./assets/images/alien-attack.png">
         </p>
 
+    -   ### Header
 
+        1. When entering the website, users are instantly greeted with a clean and easy to read header.
 
+        <p align="center">
+        <img src="./assets/images/header.png">
+        </p>
+  
     -  ### Colour Scheme
 
         -  The main colours used for the game are HSL colour hue.
@@ -52,6 +58,37 @@ This is the main website for Bird Adventures. It is designed to be responsive an
     <p align="center">
     <img width="600px" height="300px" src="./assets/images/colors-hsl.png">
     </p>
+
+    - ### Typography
+
+    -  Google Fonts "Press Start 2P" font family is used for the header text it adds an authentic retro feel to the website. 
+
+    ## Technologies Used
+
+-   ### Languages Used
+
+    -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    -   [CSS3](https://en.wikipedia.org/wiki/CSS)
+    -   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+    ### Frameworks, Libraries & Programs Used
+
+    1. [Hover.css:](https://www.w3schools.com/cssref/sel_hover.asp) 
+    -  Hover.css was used on the navigation bar and on all social media links in the footer to add a floating colour change when hovering over the links.
+    1. [Google Fonts:](https://fonts.google.com/)
+    -  Google fonts were used to import 'Merienda' 'Volkhov' and 'Open Sans' font as a link in the html page header which is used on all pages throughout the website.
+    1. [Animate.css](https://animate.style/)
+    -  Animate.css was used to fade in left the home page "text" and the call to action "sign up" button. It adds aesthetic and UX purposes.  
+    1. [Git:](https://git-scm.com/)
+    -  Git was used for version control by utilizing the Gitpod terminal to commit to Git and Puch to GitHub.
+    1. [GitHub:](https://github.com/)
+    -  GitHub is used to store project codes after being pushed from the Gitpod terminal.
+    1. [Affinity Designer:](https://affinity.serif.com/en-gb/designer/)
+    -  Affinity Designer was used to create the hero background image for the website.
+    1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
+
+
 
 - ### Content 
 
