@@ -41,7 +41,6 @@ animate();
 /*
 Event listener section
 Custom code by developer.*/ 
-
 window.addEventListener('keydown', (e) => {
     if (e.code === 'Space') spacePressed = true;
 
@@ -50,12 +49,15 @@ window.addEventListener('keyup', (e) => {
     if (e.code === 'Space') spacePressed = false;
 });
 
-window.addEventListener('touchstart', (e) => {
-    if (e.changedTouches === 'Touch') touchScreen = true;
+//custom code by developer
+canvas.addEventListener('touchstart', (e) => {
+    if (e.touches >= 'Touches') touchScreen = true;
+     
 });
 
-window.addEventListener('touchend', (e) => {
-    if (e.changedTouches === 'Touch') touchScreen = false;
+canvas.addEventListener('touchend', (e) => {
+    if (e.touches >= 'Touches') touchScreen = false;
+    
 });
 
 // custom code by developer for sound fx
@@ -89,8 +91,8 @@ function handleCollisions() {
             ctx.font = "25px Georgia";
             ctx.fillStyle = 'black';
             ctx.fillText('Game Over, your score is ' + score, 160, canvas.height/2);
-            //reload window after game is over.
-            window.location.reload();
+             //reload window after game is over.
+            // window.location.reload();
             //fxSound.play(); 
             return true;
         }
