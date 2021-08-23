@@ -1,9 +1,10 @@
-// Custom code by developer 
+// Custom code by developer
 let canvas = document.getElementById("canvas");
-let ctx = canvas.getContext('2d');
+let ctx = canvas.getContext("2d");
 canvas.width = 600;
 canvas.height = 500;
 
+//variables
 let spacePressed = false;
 let touchScreen = false;
 let angle = 0;
@@ -11,56 +12,58 @@ let hue = 0;
 let frame = 0;
 let score = 0;
 let gamespeed = 2;
-let gameMusic; 
+let gameMusic;
 
-  
-
-
-// Custom code by developer 
-animate = () => {
+/*Custom code by developer */
+function animate(){
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     handleObstacles();
     bird.update();
     bird.draw();
-    ctx.fillStyle = 'red';
-    ctx.font = '90px  Georgia';
+    ctx.fillStyle = "white";
+    ctx.font = "90px  Georgia";
     ctx.strokeText(score, 450, 70);
     ctx.fillText(score, 450, 70);
     handleCollisions();
-    if (handleCollisions()) return;
+    if (handleCollisions()){
+        return;
+    }
     handleParticles();
     requestAnimationFrame(animate);
     angle += 0.12;
     hue++;
     frame++;
-   
 }
 animate();
 
-
 /*
-Event listener section
-Custom code by developer.*/ 
-window.addEventListener('keydown', (e) => {
-    if (e.code === 'Space') spacePressed = true;
-
+Event listeners for keyboards and touchscreens devices
+Custom code by developer.*/
+window.addEventListener("keydown", (e) => {
+    if (e.code === "Space") {
+        spacePressed = true;
+    }
 });
-window.addEventListener('keyup', (e) => {
-    if (e.code === 'Space') spacePressed = false;
-});
-
-//custom code by developer
-canvas.addEventListener('touchstart', (e) => {
-    if (e.touches >= 'Touches') touchScreen = true;
-     
+window.addEventListener("keyup", (e) => {
+    if (e.code === "Space") {
+        spacePressed = false;
+    }
 });
 
-canvas.addEventListener('touchend', (e) => {
-    if (e.touches >= 'Touches') touchScreen = false;
-    
+// custom code by developer
+canvas.addEventListener("touchstart", (e) => {
+    if (e.touches >= "Touches") {
+        touchScreen = true;
+    }
 });
 
-// custom code by developer for sound fx
+canvas.addEventListener("touchend", (e) => {
+    if (e.touches >= "Touches") {
+        touchScreen = false;
+    }
+});
+
+/* custom code by developer for sound fx */
 class sound {
     constructor(src) {
         this.sound = document.createElement("audio");
@@ -76,8 +79,8 @@ class sound {
 }
 
 const bang = new Image();
-bang.src = '/assets/images/explosion.png';
-let fxSound = new sound('sound/explosion.mp3');
+bang.src = "/assets/images/explosion.png";
+let fxSound = new sound("/sound/explosion.mp3");
 
 function handleCollisions() {
     for (let i = 0; i < obstaclesArray.length; i++) {
@@ -87,15 +90,19 @@ function handleCollisions() {
                 (bird.y > canvas.height - obstaclesArray[i].bottom &&
                     bird.y + bird.height < canvas.height))) {
             // collision detected
-            ctx.drawImage(bang, bird.x, bird.y, 50, 50); 
-            ctx.font = "25px Georgia";
-            ctx.fillStyle = 'black';
-            ctx.fillText('Game Over, your score is ' + score, 160, canvas.height/2);
-             //reload window after game is over.
-            // window.location.reload();
-            //fxSound.play(); 
+            ctx.drawImage(bang, bird.x, bird.y, 50, 50);
+            ctx.font = "35px arial";
+            ctx.fillStyle = "white";
+            ctx.fillText("Game Over, your score is " + score, 90, canvas.height / 2.2);
+            
+            /*This custom code has a timer that 
+            * will restar the game after a loss*/
+            setTimeout(function() {
+               window.location.reload(1); 
+            }, 5000);
+            
+            //fxSound.play();
             return true;
         }
     }
-   
 }
