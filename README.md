@@ -101,6 +101,147 @@ This is the main website for Space Attack. It is designed to be responsive and a
     1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
 
+   
+    ## Testing
+    
+-   ### Validator Testing    
+
+    - The JSLint validator, W3C Markup Validator, and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-   ### JavaScript
+
+-   ### HTML5 
+
+    -  [W3C Markup Validator](https://validator.w3.org/#validate_by_input+with_options)
+
+        <p align="center">
+        <img src="assets/images/html-validator-w3.png"> 
+        </p>
+
+-   ### CSS3
+
+    -  [W3C CSS Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+        <p align="center">
+        <img src="assets/images/css-validator-img.png"> 
+        </p>
+        
+    -   ###  All pages came back with no errors.
+
+
+## Testing User Stories from User Experience (UX) Section
+
+-   ### First Time Visitor Goals
+
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the restaurant.
+
+        1. When entering the website, users are instantly greeted with a clean and easy to read navigation bar to go to the page of their choice. Underneath there is a Hero Image with text and a "Sign Up" call to action button which opens a "modal" for visitors to sign up using an email address and password.
+
+        2. The Hero Image and text immediately lets visitors know what the website is all about.
+
+        3. The user has three options, click the call to action button, click the links in the navigation bar or scroll down to learn more about the restaurant.
+
+    2. As a First Time Visitor, I want to easily be able to navigate throughout the site to find content.
+
+        1. The website has been designed to be user-friendly and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what section of the website or page they will end up on.
+
+        2. At the bottom of the first 3 pages there is a redirection button which navigates back to the top of the page to ensure the user always has somewhere to go and does not feel trapped as they get to the bottom of the page.
+
+        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought back to the main home page. 
+
+    3. As a Returning Visitor, I want to find all social media links so that I can follow the pages and keep up to date with new content posted.
+
+        1.  All social media links can be found at the footer of every page and will open a new tab for the user and more information can be found on the page.
+
+        2. The user can scroll to the bottom of the page to find the Instagram, Facebook, Twitter, and YouTube icons and with one click will be directed to the social media page which will open in a new tab to ensure they can get back to the website easily.
+
+        3. If the user is on the "Contact" page they will also have access to all social media icons in the footer so they never have to feel restricted on any page.
+
+    -   #### Frequent User Goals
+
+    1. As a Frequent User, I want to check to see if there are any newly added pictures.
+
+        1. The user would already be comfortable with the website layout and can easily navigate with ease.
+
+    2. As a Frequent User, I want to sign up to the Newsletter so that I am kept informed about any major updates and/or changes to the website or organisation.
+
+        1.  On the home page the user can see a "Sign Up" button. When the user click's the button they will be prompted to Enter their name and email address for our weekly Newsletter.
+
+## Debugging
+
+-   ### Chrome Developer Tools
+
+    -  Chrome Dev Tools was used for inspection of HTML, and CSS. It helped to diagnose problems, and debug issues right in the browers.
+
+-   ### Further Testing
+
+    -   The Website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
+
+    -   The website was viewed on a variety of devices such as 
+        - Desktop 
+        - Laptop 
+        - Motorola G4 
+        - Galaxy S5/7
+        - Pixel 2
+        - Pixel 2 XL 
+        - iPhone 5/SE 
+        - iPhone 6/7/8/Plus 
+        - iPhone X, 
+        - ipad/Pro.
+
+    -   A large amount of testing was done to ensure that all pages were linking correctly.
+
+    -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+-   ### Known Bugs
+
+    -   I removed this code which kept returning an error in the console. The code was created to add sound fx when the spaceship made contact with an obstacle.
+
+    <p align="center">
+    <img src="assets/images/js-code.png"> 
+    </p>
+
+## Deployment
+
+-   ### GitHub Pages
+
+    - The project was deployed to GitHub Pages using the following steps...    
+ 
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+    2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+    3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+    4. Under "Source", click the dropdown called "None" and select "Master Branch".
+    5. The page will automatically refresh.
+    6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+  
+
+-   ### Making a Local Clone
+
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+    2. Under the repository name, click "Clone or download".
+    3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+    4. Open Git Bash
+    5. Change the current working directory to the location where you want the cloned directory to be made.
+    6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+        7. Press Enter. Your local clone will be created.
+
+```
+    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    > Cloning into `CI-Clone`...
+    > remote: Counting objects: 10, done.
+    > remote: Compressing objects: 100% (8/8), done.
+    > remove: Total 10 (delta 1), reused 10 (delta 1)
+    > Unpacking objects: 100% (10/10), done.
+```
+---
+
+
 ## Credits
 
 -   ### Code
