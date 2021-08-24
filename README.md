@@ -4,7 +4,6 @@ This is the main website for Space Attack. It is designed to be responsive and a
 
 
 
-
 ## User Experience (UX)
 
 -  ###  User stories 
@@ -12,60 +11,77 @@ This is the main website for Space Attack. It is designed to be responsive and a
     -   ### First Time Visitor Goals 
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the game.
-        2. As a First Time Visitor, I want to easily navigate throught the site to   find information.
-        3. As a First Time Visitor, I want the game to be fun and interesting to play.
-        4. As a First Time Visitor, I want the website and game to load fast.
-        5. As a First Time Visitor, I want to see if new games will be added to the site in the fututre.
 
+        2. As a First Time Visitor, I want the gaming controls to be smooth and easy to use.
+
+        3. As a First Time Visitor, I want the game to be fun and challenging.
+
+        4. As a First Time Visitor, I want the website and content to load fast.
+        
     -   ### Returning Visitor Goals 
 
-        1. As a Returning Visitor, I want to challenge myself to reach a higher score. 
+        1. As a Returning Visitor, I want to be able to play the game on multiple devices. 
+        
         2. As a Returning Visitor, I want to see if there are any new updated information that i may find useful.
-        3. As a Returning Visitor, I want to find information on how to
+
+        3. As a Returning Visitor, I want to see if there have been any new features added to the game.
 
     -   ### Frequent User Goals
 
-        1. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website.
-        2. As a Frequent User, I want to see if there are any updated information.
-        3. As a Frequent User, I want to see if there are any new added pictures. 
+        1. As a Frequent User, i want to play games on the go using my mobile device.
+
+        2. As a Frequent User, I want the game and website to load fast.
+        
+        3. As a Frequent User, I want to see if there are any newly added gaming updates. 
 
 -  ### Website Design
 
     -   ### Home Page
 
-        1. For the home page Imagery is very important. The large background hero image is designed to capture the visitor's attention with its beautiful presentation of the food served in the restaurant.
+        1. For the home page Imagery is very important. The large background hero image is designed to capture the visitor's attention.
 
-        2. On the left of the image is some text which gives a warm inviting message.
+        2. At the bottom for the page visitors can find instructions for how to play the game.
 
-        3. Below the main gaming canvas there is a button when clicked it will controls the movement of the spacship.
-       
+        <p align="center">
+        <img src="./assets/images/page-shot.png">
+        </p>
+
+    -   ### Game Canvas
+
+        2. The main gaming canvas is plcaed in the center of the page. It was designed with a classic retro theme to add an aesthetic 80s feel to the website.
+
         <p align="center">
         <img width="400px" height="350px" src="./assets/images/alien-attack.png">
         </p>
-
+        
     -   ### Header
 
         1. When entering the website, users are instantly greeted with a clean and easy to read header.
 
         <p align="center">
-        <img src="./assets/images/header.png">
+        <img src="./assets/images/header-h1.png">
         </p>
 
     -   ###   Mobile View
 
-        2. This is the layout for mobile and tablet devices when displayed vertically.
+        1. This is the layout for mobile and tablet devices when displayed vertically.
+
+        -   ###   Touch game controls    
+
+        1. The game has a touch control feature that allows players to tap the screen to move the space craft up and down.
 
         <p align="center">
-        <img width="250" height="500" src="./assets/images/mobile-view2.png">
+      
+        <img width="360" height="500" src="./assets/images/mobile-devices.png">
         </p>
     
   
     -  ### Colour Scheme
 
-        -  The main colours used for the game are HSL colour hue.
+        -  The main colours used for the website are HSL colour hue and purple. 
 
     <p align="center">
-    <img width="600px" height="300px" src="./assets/images/colors-hsl.png">
+    <img width="600px" height="300px" src="./assets/images/colors.png">
     </p>
 
     - ### Typography
@@ -75,6 +91,24 @@ This is the main website for Space Attack. It is designed to be responsive and a
     <p align="center">
     <img src="./assets/images/google-fonts.png">
     </p>
+
+-   ## Features
+    
+    -  ### Current Features
+
+       1. This is a one page interactive website.
+
+       2. The website is fully responsive on all devices.
+
+       3. The website uses touch controls when displayed on small mobile and tablet devices.
+
+    -  ### Future Features
+
+       1. To add sound fx for game play.
+
+       2. To add multiple levels.
+
+       3. To add a gaming menu.    
 
     ## Technologies Used
 
@@ -86,22 +120,15 @@ This is the main website for Space Attack. It is designed to be responsive and a
 
     ### Frameworks, Libraries & Programs Used
 
-    1. [Hover.css:](https://www.w3schools.com/cssref/sel_hover.asp) 
-    -  Hover.css was used on the navigation bar and on all social media links in the footer to add a floating colour change when hovering over the links.
     1. [Google Fonts:](https://fonts.google.com/)
     -  Google fonts were used to import 'Merienda' 'Volkhov' and 'Open Sans' font as a link in the html page header which is used on all pages throughout the website.
-    1. [Animate.css](https://animate.style/)
-    -  Animate.css was used to fade in left the home page "text" and the call to action "sign up" button. It adds aesthetic and UX purposes.  
     1. [Git:](https://git-scm.com/)
     -  Git was used for version control by utilizing the Gitpod terminal to commit to Git and Puch to GitHub.
     1. [GitHub:](https://github.com/)
     -  GitHub is used to store project codes after being pushed from the Gitpod terminal.
-    1. [Affinity Designer:](https://affinity.serif.com/en-gb/designer/)
-    -  Affinity Designer was used to create the hero background image for the website.
     1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
 
-   
     ## Testing
     
 -   ### Validator Testing    
@@ -133,11 +160,11 @@ This is the main website for Space Attack. It is designed to be responsive and a
 
 -   ### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the restaurant.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the game.
 
-        1. When entering the website, users are instantly greeted with a clean and easy to read navigation bar to go to the page of their choice. Underneath there is a Hero Image with text and a "Sign Up" call to action button which opens a "modal" for visitors to sign up using an email address and password.
+        1. When entering the website, users are instantly greeted with a clean and easy to read header.
 
-        2. The Hero Image and text immediately lets visitors know what the website is all about.
+        2. The Hero Image and header immediately lets visitors know what the website is all about.
 
         3. The user has three options, click the call to action button, click the links in the navigation bar or scroll down to learn more about the restaurant.
 
@@ -171,7 +198,7 @@ This is the main website for Space Attack. It is designed to be responsive and a
 
 -   ### Chrome Developer Tools
 
-    -  Chrome Dev Tools was used for inspection of HTML, and CSS. It helped to diagnose problems, and debug issues right in the browers.
+    -  Chrome Dev Tools console was used for the debugging of JavaScript. It helped to diagnose problems, and debug issues right in the browers.
 
 -   ### Further Testing
 
@@ -189,7 +216,7 @@ This is the main website for Space Attack. It is designed to be responsive and a
         - iPhone X, 
         - ipad/Pro.
 
-    -   A large amount of testing was done to ensure that all pages were linking correctly.
+    -   A large amount of testing was done to ensure that all pages were responsive.
 
     -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
@@ -198,7 +225,7 @@ This is the main website for Space Attack. It is designed to be responsive and a
     -   I removed this code which kept returning an error in the console. The code was created to add sound fx when the spaceship made contact with an obstacle.
 
     <p align="center">
-    <img src="assets/images/js-code.png"> 
+    <img src="./assets/images/JS-code.png"> 
     </p>
 
 ## Deployment
@@ -248,14 +275,18 @@ This is the main website for Space Attack. It is designed to be responsive and a
 
     - The Code Institute material was the main source of information used to create this project.
 
-    - W3schools was used as a general source of knowledge and immensely helped when coding the game.
+    - W3Schools was used as a general source of knowledge and a blueprint for creating the game.
+
+    <p align="center">
+    <img width="600px" height="300px" src="./assets/images/www.w3schools.com.png">
+    </p>
 
 
 - ### Content 
 
     -  Psychological properties of colours text in the README.md was found - [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
-    -  The main game background image was taken from.
+    -  The main background hero image was sourced from freepik.com
     <a href="https://www.freepik.com/vectors/leaf">vector created by upklyak - www.freepik.com</a>
 
    
