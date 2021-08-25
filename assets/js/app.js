@@ -1,10 +1,10 @@
-// Custom code by developer
-let canvas = document.getElementById("canvas");
+// Custom code
+let canvas = document.getElementById("canvas"); // Get canvas element
 let ctx = canvas.getContext("2d");
-canvas.width = 600;
-canvas.height = 500;
+canvas.width = 600; // Game canvas width
+canvas.height = 500; // Game canvas height
 
-//variables
+// Declare variables
 let spacePressed = false;
 let touchScreen = false;
 let angle = 0;
@@ -13,19 +13,20 @@ let frame = 0;
 let score = 0;
 let gamespeed = 2;
 let gameMusic;
+// end.....
 
-/*Custom code by developer */
-function animate(){
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    handleObstacles();
-    bird.update();
-    bird.draw();
-    ctx.fillStyle = "white";
-    ctx.font = "90px  Georgia";
+// Credit: Code sourced from w3school.com and edited to fit the projects needs
+function animate() { // Declare function
+    ctx.clearRect(0, 0, canvas.width, canvas.height); // Target properties
+    handleObstacles(); // Function call handleObstacles()
+    bird.update(); // Function call bird.update()
+    bird.draw(); // Function call bird.draw()
+    ctx.fillStyle = "white"; // Text colour white
+    ctx.font = "90px  Georgia"; // Font family and size
     ctx.strokeText(score, 450, 70);
     ctx.fillText(score, 450, 70);
-    handleCollisions();
-    if (handleCollisions()){
+    handleCollisions(); // Call handleCollisions()
+    if (handleCollisions()) {
         return;
     }
     handleParticles();
@@ -36,54 +37,38 @@ function animate(){
 }
 animate();
 
-/*
-Event listeners for keyboards and touchscreens devices
-Custom code by developer.*/
-window.addEventListener("keydown", (e) => {
+
+//Custom code by developer
+window.addEventListener("keydown", (e) => { // Listen for keydown
     if (e.code === "Space") {
         spacePressed = true;
     }
 });
-window.addEventListener("keyup", (e) => {
+window.addEventListener("keyup", (e) => { // Listen for keyup
     if (e.code === "Space") {
         spacePressed = false;
     }
 });
-
-// custom code by developer
-canvas.addEventListener("touchstart", (e) => {
+canvas.addEventListener("touchstart", (e) => { // Listen for touchstart
     if (e.touches >= "Touches") {
         touchScreen = true;
     }
 });
-
-canvas.addEventListener("touchend", (e) => {
+canvas.addEventListener("touchend", (e) => { // Listen for touchend
     if (e.touches >= "Touches") {
         touchScreen = false;
     }
 });
-
-/* custom code by developer for sound fx */
-class sound {
-    constructor(src) {
-        this.sound = document.createElement("audio");
-        this.sound.src = src;
-        document.body.appendChild(this.sound);
-        this.play = () => {
-            this.sound.play();
-        };
-        this.stop = () => {
-            this.sound.pause();
-        };
-    }
-}
+// end......
 
 const bang = new Image();
 bang.src = "/assets/images/explosion.png";
-let fxSound = new sound("/sound/explosion.mp3");
 
-function handleCollisions() {
-    for (let i = 0; i < obstaclesArray.length; i++) {
+/* Credit: Code sourced from "Franks laboratory" and edited to
+ *fit the projects needs
+ */
+function handleCollisions() { // Declair function
+    for (let i = 0; i < obstaclesArray.length; i++) { // for loop
         if (bird.x < obstaclesArray[i].x + obstaclesArray[i].width &&
             bird.x + bird.width > obstaclesArray[i].x &&
             ((bird.y < 0 + obstaclesArray[i].top && bird.y + bird.height > 0) ||
@@ -92,16 +77,13 @@ function handleCollisions() {
             // collision detected
             ctx.drawImage(bang, bird.x, bird.y, 50, 50);
             ctx.font = "35px arial";
-            ctx.fillStyle = "white";
+            ctx.fillStyle = "red";
             ctx.fillText("Game Over, your score is " + score, 90, canvas.height / 2.2);
-            
-            /*This custom code has a timer that 
-            * will restar the game after a loss*/
-            setTimeout(function() {
-               window.location.reload(1); 
+            /*This custom code has a timer that
+             * will restar the game after a loss*/
+            setTimeout(function () {
+                window.location.reload(1);
             }, 5000);
-            
-            //fxSound.play();
             return true;
         }
     }
