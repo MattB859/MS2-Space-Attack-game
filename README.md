@@ -130,7 +130,7 @@ This is the main website for Space Attack. It is designed to be responsive and a
     ### Frameworks, Libraries & Programs Used
 
     1. [Google Fonts:](https://fonts.google.com/)
-    -  Google fonts were used to import 'Merienda' 'Volkhov' and 'Open Sans' font as a link in the html page header which is used on all pages throughout the website.
+    -  Google fonts were used to import 'Press Start 2P' font for the page header which is used throughout the website.
     1. [Git:](https://git-scm.com/)
     -  Git was used for version control by utilizing the Gitpod terminal to commit to Git and Puch to GitHub.
     1. [GitHub:](https://github.com/)
@@ -146,21 +146,27 @@ This is the main website for Space Attack. It is designed to be responsive and a
 
 -   ### JavaScript
 
+    -  [JS Lint](https://www.jslint.com/)
+
+    <p align="center">
+    <img src="assets/images/html-validator-w3.png"> 
+    </p>
+
 -   ### HTML5 
 
-    -  [W3C Markup Validator](https://validator.w3.org/#validate_by_input+with_options)
+    -  [W3C Markup Validator](https://validator.w3.org/)
 
-        <p align="center">
-        <img src="assets/images/html-validator-w3.png"> 
-        </p>
+    <p align="center">
+    <img src="assets/images/html-validator.w3.org.png"> 
+    </p>
 
 -   ### CSS3
 
-    -  [W3C CSS Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    -  [W3C CSS Markup Validator](https://jigsaw.w3.org/css-validator/)
 
-        <p align="center">
-        <img src="assets/images/css-validator-img.png"> 
-        </p>
+    <p align="center">
+    <img src="assets/images/css-validator-img.png"> 
+    </p>
         
     -   ###  All pages came back with no errors.
 
