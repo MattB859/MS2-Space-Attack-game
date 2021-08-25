@@ -30,7 +30,8 @@ class Bird {
     }
     draw() {
         ctx.fillStyle = "blue";
-        ctx.drawImage(spaceship, 0, 0, this.shipWidth, this.shipHeight, this.x - 10,
+        ctx.drawImage(spaceship, 0, 0, this.shipWidth,
+        this.shipHeight, this.x - 10,
         this.y - 5, this.width * 1.7, this.height * 1.7);
     }
     flap() {

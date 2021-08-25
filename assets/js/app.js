@@ -78,7 +78,8 @@ function handleCollisions() { // Declair function
             ctx.drawImage(bang, bird.x, bird.y, 50, 50);
             ctx.font = "35px arial";
             ctx.fillStyle = "red";
-            ctx.fillText("Game Over, your score is " + score, 90, canvas.height / 2.2);
+            ctx.fillText("Game Over, your score is " + score, 90, 
+            canvas.height / 2.2);
             /*This custom code has a timer that
              * will restar the game after a loss*/
             setTimeout(function () {
