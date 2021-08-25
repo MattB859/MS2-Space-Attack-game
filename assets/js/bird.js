@@ -1,10 +1,15 @@
+let spaceship = new Image();
+spaceship.src = "/assets/images/spaceship.png";
+
 class Bird {
     constructor() {
         this.x = 150;
         this.y = 200;
         this.vy = 0;
-        this.width = 20;
-        this.height = 20;
+        this.shipWidth = 941;
+        this.shipHeight = 680;
+        this.width = this.shipWidth/20;
+        this.height = this.shipHeight/20;
         this.weight = 1;
     }
     update() {
@@ -21,11 +26,12 @@ class Bird {
             this.y = 0 + this.height;
             this.vy = 0;
         }
-        if (spacePressed && this.y > this.height * 3) this.flap();
+        if (spacePressed + touchScreen && this.y > this.height * 3) this.flap();
     }
     draw() {
-        ctx.fillStyle = 'blue';
-        ctx.fillRect(this.x, this.y, this.width, this.height);
+        ctx.fillStyle = "blue";
+        ctx.drawImage(spaceship, 0, 0, this.shipWidth, this.shipHeight, this.x - 10,
+        this.y - 5, this.width * 1.7, this.height * 1.7);
     }
     flap() {
         this.vy -= 2;

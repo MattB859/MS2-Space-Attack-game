@@ -5,25 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Retro World</title>
+    <title>Space Attack</title>
 </head>
 
 <body>
 
-    <header class="header">
-        <h1>Game Boy</h1>
-    </header>
+    <div class="bg-container">
+        <header class="header">
+            <h1>Space <img class="logo" src="/assets/images/spaceship.png" alt="spaceship"> Attack</h1>
+        </header>
 
-    <canvas id="canvas"></canvas>
-
-    <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">A
-        <div class="border"></div>
-    </button>
-
+        <canvas id="canvas"></canvas>
+        
+        <div class="controls">TAP SCREEN TO PLAY</div>
+        <div class="controls-2">tap the space bar to play</div>
     
-
-
 
     <script src="/assets/js/bird.js"></script>
     <script src="/assets/js/particles.js"></script>
