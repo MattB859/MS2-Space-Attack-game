@@ -230,9 +230,9 @@ This is the main website for Space Attack. It is designed to be responsive and a
 
 ## Deployment
 
--   ### GitHub Pages
+## GitHub Pages
 
-    - The project was deployed to GitHub Pages using the following steps...    
+-   The project was deployed to GitHub Pages using the following steps...    
  
     1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
     2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
@@ -242,8 +242,16 @@ This is the main website for Space Attack. It is designed to be responsive and a
     5. The page will automatically refresh.
     6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
   
+    
+-   ## Forking the GitHub Repository
 
--   ### Making a Local Clone
+    By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+    2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+    3. You should now have a copy of the original repository in your GitHub account.
+
+-   ## Making a Local Clone
 
     1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
     2. Under the repository name, click "Clone or download".
@@ -265,34 +273,34 @@ This is the main website for Space Attack. It is designed to be responsive and a
     > remote: Compressing objects: 100% (8/8), done.
     > remove: Total 10 (delta 1), reused 10 (delta 1)
     > Unpacking objects: 100% (10/10), done.
-```
----
+
+ ```
 
 
 ## Credits
 
--   ### Code
+## Code
 
-    - The Code Institute material was the main source of information used to create this project.
+-   ### The Code Institute material was the main source of information used to create this project. 
 
-    - W3Schools was used as a general source of knowledge and a blueprint for creating the game.
+-   ### W3Schools was used as a general source of knowledge and a blueprint for creating the game.
 
     <p align="center">
     <img width="600px" height="300px" src="./assets/images/www.w3schools.com.png">
     </p>
 
 
-- ### Content 
+## Content 
 
-    -  Psychological properties of colours text in the README.md was found - [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+- ###  Psychological properties of colours text in the README.md was found - [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
-    -  The main background hero image was sourced from freepik.com
+-  ### The main background hero image was sourced from freepik.com
     <a href="https://www.freepik.com/vectors/leaf">vector created by upklyak - www.freepik.com</a>
 
    
--   ### Acknowledgements
+## Acknowledgements
 
-    - Tutor support at Code Institute for their support.
+-   ### Tutor support at Code Institute for their support.
 
     
     
