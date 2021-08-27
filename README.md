@@ -118,7 +118,7 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 
        3. The spacebar is used to control the game when displayed on desktop and laptop devices and touch screen controls when displayed on small mobile and tablet devices.
 
-       4. The game generates random obstacle which become more difficult to avoid as the game progresses.
+       4. The game generates random obstacles which become more difficult to avoid as the game progresses.
 
        5. A score is generated after each obstacle you avoid and feeds you back your results at the end of the game.
 
@@ -210,13 +210,14 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 
     -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added pictures.
+    1. As a Frequent User, I want the game and website to load fast.
 
-        1. The user would already be comfortable with the website layout and can easily navigate with ease.
+        1. The game will automatically restart after 5s when the game ends allowing users to start over.
 
-    2. As a Frequent User, I want to sign up to the Newsletter so that I am kept informed about any major updates and/or changes to the website or organisation.
+    2. As a Frequent User, I want the game to continue being challenging and fun to play
 
-        1.  On the home page the user can see a "Sign Up" button. When the user click's the button they will be prompted to Enter their name and email address for our weekly Newsletter.
+        1.  The game will generate random sized obstacles which become more difficult to avoid as the game progresses.
+
 
 ## Debugging
 

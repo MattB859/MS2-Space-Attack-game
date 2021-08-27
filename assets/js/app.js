@@ -39,22 +39,22 @@ animate();
 
 
 //Custom code by developer
-window.addEventListener("keydown", (e) => { // Listen for keydown
+window.addEventListener("keydown", function(e){ // Listen for keydown
     if (e.code === "Space") {
         spacePressed = true;
     }
 });
-window.addEventListener("keyup", (e) => { // Listen for keyup
+window.addEventListener("keyup", function(e){ // Listen for keyup
     if (e.code === "Space") {
         spacePressed = false;
     }
 });
-canvas.addEventListener("touchstart", (e) => { // Listen for touchstart
+canvas.addEventListener("touchstart", function(e) { // Listen for touchstart
     if (e.touches >= "Touches") {
         touchScreen = true;
     }
 });
-canvas.addEventListener("touchend", (e) => { // Listen for touchend
+canvas.addEventListener("touchend", function(e) { // Listen for touchend
     if (e.touches >= "Touches") {
         touchScreen = false;
     }
@@ -78,7 +78,7 @@ function handleCollisions() { // Declair function
             ctx.drawImage(bang, bird.x, bird.y, 50, 50);
             ctx.font = "35px arial";
             ctx.fillStyle = "red";
-            ctx.fillText("Game Over, your score is " + score, 90, 
+            ctx.fillText("Game Over, your score is " + score, 90,
             canvas.height / 2.2);
             /*This custom code has a timer that
              * will restar the game after a loss*/
