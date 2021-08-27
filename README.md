@@ -2,6 +2,8 @@
 
 This is the main website for Space Attack. It is a 2d game that allows players to fly in outter space while avoiding obstacles. It is designed to be responsive and accessible on multiple devices, making it easy to navigate for new and existing visitors.
 
+[visit website here](https://mattb859.github.io/MS2-Space-Attack-game/)
+
 
 
 ## User Experience (UX)
