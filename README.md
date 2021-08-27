@@ -1,6 +1,6 @@
 <h1 align="center">Space Attack</h1>
 
-This is the main website for Space Attack. It is designed to be responsive and accessible on multiple devices, making it easy to navigate for new and existing visitors.
+This is the main website for Space Attack. It is a 2d game that allows players to fly in outter space while avoiding obstacles. It is designed to be responsive and accessible on multiple devices, making it easy to navigate for new and existing visitors.
 
 
 
@@ -12,11 +12,11 @@ This is the main website for Space Attack. It is designed to be responsive and a
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the game.
 
-        2. As a First Time Visitor, I want the gaming controls to be smooth and easy to use.
+        2. As a First Time Visitor, I want the game controls to be simple and easy to use.
 
         3. As a First Time Visitor, I want the game to be fun and challenging.
 
-        4. As a First Time Visitor, I want the website and content to load fast.
+        4. As a First Time Visitor, I want the website and game to load fast.
         
     -   ### Returning Visitor Goals 
 
@@ -26,6 +26,8 @@ This is the main website for Space Attack. It is designed to be responsive and a
 
         3. As a Returning Visitor, I want to see if there have been any new features added to the game.
 
+        4. As a Returning Visitor, I want to see new games added that i can enjoy.
+
     -   ### Frequent User Goals
 
         1. As a Frequent User, i want to play games on the go using my mobile device.
@@ -33,6 +35,8 @@ This is the main website for Space Attack. It is designed to be responsive and a
         2. As a Frequent User, I want the game and website to load fast.
         
         3. As a Frequent User, I want to see if there are any newly added gaming updates. 
+
+        4. As a Frequent User, I want the game to continue being challenging and fun to play
 
 -  ### Website Design
 
@@ -42,13 +46,17 @@ This is the main website for Space Attack. It is designed to be responsive and a
 
         2. At the bottom for the page visitors can find instructions for how to play the game.
 
+        3. To play the game visitors will need to tap the spacebar to fly the spaceship and avoid hitting the obstacles.
+
         <p align="center">
         <img src="./assets/images/page-shot.png">
         </p>
 
     -   ### Game Canvas
 
-        2. The main gaming canvas is plcaed in the center of the page. It was designed with a classic retro theme to add an aesthetic 80s feel to the website.
+        1. The main gaming canvas is plcaed in the center of the page. 
+
+        2. The games background image is a retro 2d alien planet. It adds a aesthetic look to the game with a colourful fun representation of an alien planet.
 
         <p align="center">
         <img width="400px" height="350px" src="./assets/images/alien-attack.png">
@@ -57,6 +65,7 @@ This is the main website for Space Attack. It is designed to be responsive and a
     -   ### Header
 
         1. When entering the website, users are instantly greeted with a clean and easy to read header.
+
 
         <p align="center">
         <img src="./assets/images/header-h1.png">
@@ -94,22 +103,24 @@ This is the main website for Space Attack. It is designed to be responsive and a
 
 -  ## Wireframes
 
-    -   ### Home Page Wireframe - [View](https://github.com/)
+    -   ### Home Page Wireframe - [View](https://balsamiq.cloud/seqremb/ppq8zy/r6146)
 
-    -  ### Mobile Wireframe - [View](https://github.com/)
-
-    -  ### Contact Us Page Wireframe - [View](https://github.com/)
+    -  ### Mobile Wireframe - [View](https://balsamiq.cloud/seqremb/ppq8zy/rB1D5)
 
 
 -   ## Features
     
     -  ### Current Features
 
-       1. This is a one page interactive website.
+       1. This is a one page interactive game.
 
-       2. The website is fully responsive on all devices.
+       2. The game is fully responsive on all devices.
 
-       3. The website uses touch controls when displayed on small mobile and tablet devices.
+       3. The spacebar is used to control the game when displayed on desktop and laptop devices and touch screen controls when displayed on small mobile and tablet devices.
+
+       4. The game generates random obstacle which become more difficult to avoid as the game progresses.
+
+       5. A score is generated after each obstacle you avoid and feeds you back your results at the end of the game.
 
     -  ### Future Features
 
@@ -181,23 +192,21 @@ This is the main website for Space Attack. It is designed to be responsive and a
 
         2. The Hero Image and header immediately lets visitors know what the website is all about.
 
-        3. The user has three options, click the call to action button, click the links in the navigation bar or scroll down to learn more about the restaurant.
+        3. The visitor is able start playing the game right away, instructions at the bottom of the page tell users how to play the game.
 
-    2. As a First Time Visitor, I want to easily be able to navigate throughout the site to find content.
+    2. As a First Time Visitor, I want the game controls to be simple and easy to use.
 
-        1. The website has been designed to be user-friendly and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what section of the website or page they will end up on.
+        1. The game has been designed to be user-friendly for all ages. 
+        
+        2. For desktop and laptop computers the "spacebar" is used to control the game visitors can find Instructions at the bottom of the page.
 
-        2. At the bottom of the first 3 pages there is a redirection button which navigates back to the top of the page to ensure the user always has somewhere to go and does not feel trapped as they get to the bottom of the page.
+        2. For mobile and tablet devices visitors can simple control the game by tapping their screens.
 
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought back to the main home page. 
+    3.  As a Returning Visitor, I want to be able to play the game on multiple devices. 
 
-    3. As a Returning Visitor, I want to find all social media links so that I can follow the pages and keep up to date with new content posted.
+        1.  The game is fully responsive on mobile and tablet devices. 
 
-        1.  All social media links can be found at the footer of every page and will open a new tab for the user and more information can be found on the page.
-
-        2. The user can scroll to the bottom of the page to find the Instagram, Facebook, Twitter, and YouTube icons and with one click will be directed to the social media page which will open in a new tab to ensure they can get back to the website easily.
-
-        3. If the user is on the "Contact" page they will also have access to all social media icons in the footer so they never have to feel restricted on any page.
+        2.  Users can play the game on the go and never feel restricted to a computer.
 
     -   #### Frequent User Goals
 
