@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url('/assets/images/galaxy2.jpg') no-repeat;
+    background: url('../assets/images/galaxy2.jpg') no-repeat;
     background-size: cover;
     overflow: hidden;
     height: 100vh;
@@ -31,7 +31,7 @@ body {
 
 /*canvas styling*/
 canvas {
-    background: url('/assets/images/alien-planet.jpg') no-repeat;
+    background: url('../assets/images/alien-planet.jpg') no-repeat;
     background-size: cover;
     /*background-color: rgb(91, 155, 250); */
     border: 2px solid rgb(238, 238, 238);
