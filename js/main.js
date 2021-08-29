@@ -14,7 +14,8 @@ let score = 0;
 let gamespeed = 2;
 // end.....
 
-// Credit: Code sourced from w3school.com and edited to fit the projects needs
+// Credit: Code sourced from w3school.com and edited
+// by developer to fit the projects needs
 function animate() { // Declare function
     ctx.clearRect(0, 0, canvas.width, canvas.height); // Target properties
     handleObstacles(); // Function call handleObstacles()
@@ -63,7 +64,7 @@ canvas.addEventListener("touchend", function(e) { // Listen for touchend
 const bang = new Image();
 bang.src = "./assets/images/explosion.png";
 
-/* Credit: Code sourced from "Franks laboratory" and edited to
+/* Credit: Code sourced from "Franks laboratory you tube tutorial" and edited to
  *fit the projects needs
  */
 function handleCollisions() { // Declair function
@@ -80,7 +81,7 @@ function handleCollisions() { // Declair function
             ctx.fillText("Game Over, your score is " + score, 90,
             canvas.height / 2.2);
             /*This custom code has a timer that
-             * will restar the game after a loss*/
+             * will restart the game after player loses*/
             setTimeout(function () {
                 window.location.reload(1);
             }, 5000);
