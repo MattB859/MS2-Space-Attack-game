@@ -5,12 +5,11 @@
 }
 
 .hero-img {
-    background: url('/assets/images/galaxy2.jpg') no-repeat;
-    background-size: cover;
     overflow: hidden;
     height: 100vh;
     filter: saturate(1.2);
-
+    background: url('../images/galaxy2.jpg') no-repeat;
+    background-size: cover;
 }
 
 /*main header styling*/
@@ -31,8 +30,6 @@
 
 /*canvas styling*/
 .canvas {
-    background: url('/assets/images/alien-planet.jpg') no-repeat;
-    background-size: cover;
     /*background-color: rgb(91, 155, 250); */
     border: 2px solid rgb(238, 238, 238);
     border-radius: 1%;
@@ -42,6 +39,9 @@
     width: 600px;
     height: 600px;
     transform: translate(-50%, -50%);
+    background: url('../images/alien-planet.jpg') no-repeat;
+    background-size: cover;
+
 }
 
 .controls {
@@ -72,7 +72,7 @@
 }
 
 @media only screen and (max-width: 800px) {
-    canvas {
+    .canvas {
         width: 100%;
         height: 100%;
         border: none;
@@ -87,7 +87,7 @@
     }
 }
 @media only screen and (max-width: 600px) {
-    canvas {
+    .canvas {
         width: 100%;
         height: 40%;
         border: none;
@@ -108,7 +108,7 @@
 
 /*mobile screen sizes*/
 @media only screen and (max-width: 500px) {
-    canvas {
+    .canvas {
         width: 100%;
         height: 80%;
     }
@@ -119,7 +119,7 @@
         text-shadow: rgb(106, 8, 126) 5px 1px;
     }
 
-    body {
+    .hero-img {
         background: black;
         color: rgb(240, 240, 240);
     }
@@ -141,7 +141,7 @@
 
 /*mobile screen sizes*/
 @media only screen and (max-width: 414px) {
-    canvas {
+    .canvas {
         width: 100%;
         height: 80%;
     }
@@ -162,11 +162,11 @@
 
 /*mobile screen sizes*/
 @media only screen and (max-width: 375px) {
-    canvas {
+    .canvas {
         width: 100%;
         height: 80%;
     }
-  .controls {
+    .controls {
         display: block;
         position: absolute;
         margin: 25px auto;
