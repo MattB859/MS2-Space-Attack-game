@@ -1,5 +1,5 @@
 let spaceship = new Image();
-spaceship.src = "/assets/images/spaceship.png";
+spaceship.src = "../assets/images/spaceship.png";
 
 class Bird {
     constructor() {
