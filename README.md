@@ -4,6 +4,10 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 
 [visit website here](https://mattb859.github.io/MS2-Space-Attack-game/)
 
+<p align="center">
+<img src="./assets/images/responsive-image.png">
+</p>
+
 
 
 ## User Experience (UX)
@@ -24,7 +28,7 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 
         1. As a Returning Visitor, I want to be able to play the game on multiple devices. 
         
-        2. As a Returning Visitor, I want to see if there are any new updated information that i may find useful.
+        2. As a Returning Visitor, I want to see if there is any new updated information that i may find useful.
 
         3. As a Returning Visitor, I want to see if there have been any new features added to the game.
 
@@ -32,7 +36,7 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 
     -   ### Frequent User Goals
 
-        1. As a Frequent User, i want to play games on the go using my mobile device.
+        1. As a Frequent User, I want to play games on the go using my mobile device.
 
         2. As a Frequent User, I want the game and website to load fast.
         
@@ -46,7 +50,7 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 
         1. For the home page Imagery is very important. The large background hero image is designed to capture the visitor's attention.
 
-        2. At the bottom for the page visitors can find instructions for how to play the game.
+        2. At the bottom for the page visitors can find instructions on how to play the game.
 
         3. To play the game visitors will need to tap the spacebar to fly the spaceship and avoid hitting the obstacles.
 
@@ -56,9 +60,9 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 
     -   ### Game Canvas
 
-        1. The main gaming canvas is plcaed in the center of the page. 
+        1. The main gaming canvas is placed in the centre of the page. 
 
-        2. The games background image is a retro 2d alien planet. It adds a aesthetic look to the game with a colourful fun representation of an alien planet.
+        2. The games background image is a retro 2d alien planet. It adds an aesthetic look to the game with a colourful fun representation of an alien planet.
 
         <p align="center">
         <img width="400px" height="350px" src="./assets/images/alien-attack.png">
@@ -196,7 +200,7 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 
         1. The game has been designed to be user-friendly for all ages. 
         
-        2. For desktop and laptop computers the "spacebar" is used to control the game visitors can find Instructions at the bottom of the page.
+        2. For desktop and laptop computers the "spacebar" is used to control the game visitors can find instructions at the bottom of the page.
 
         2. For mobile and tablet devices visitors can simple control the game by tapping their screens.
 
@@ -239,7 +243,7 @@ This is the main website for Space Attack. It is a 2d game that allows players t
         - iPhone X, 
         - ipad/Pro.
 
-    -   A large amount of testing was done to ensure that all pages were responsive.
+    -   A large amount of testing was done to ensure that all pages are responsive.
 
     -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
