@@ -255,6 +255,12 @@ This is the main website for Space Attack. It is a 2d game that allows players t
     <img src="./assets/images/JS-code.png"> 
     </p>
 
+-   ### Fixed Bugs
+
+    -  Filepath issues/404 errors
+
+    -  Images and assets files are not being read. This bug has now been fixed with the right filepaths.
+
 ## Deployment
 
 ## GitHub Pages
