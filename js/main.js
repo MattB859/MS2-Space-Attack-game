@@ -12,7 +12,6 @@ let hue = 0;
 let frame = 0;
 let score = 0;
 let gamespeed = 2;
-let gameMusic;
 // end.....
 
 // Credit: Code sourced from w3school.com and edited to fit the projects needs
@@ -62,7 +61,7 @@ canvas.addEventListener("touchend", function(e) { // Listen for touchend
 // end......
 
 const bang = new Image();
-bang.src = "../assets/images/explosion.png";
+bang.src = "./assets/images/explosion.png";
 
 /* Credit: Code sourced from "Franks laboratory" and edited to
  *fit the projects needs

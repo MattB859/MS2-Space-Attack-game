@@ -161,16 +161,12 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 
     -  [JS Lint](https://www.jslint.com/)
 
-    <p align="center">
-    <img src="assets/images/html-validator-w3.png"> 
-    </p>
-
 -   ### HTML5 
 
     -  [W3C Markup Validator](https://validator.w3.org/)
 
     <p align="center">
-    <img src="assets/images/html-validator.w3.org.png"> 
+    <img src="./assets/images/html-validator.w3.org.png"> 
     </p>
 
 -   ### CSS3
@@ -178,7 +174,7 @@ This is the main website for Space Attack. It is a 2d game that allows players t
     -  [W3C CSS Markup Validator](https://jigsaw.w3.org/css-validator/)
 
     <p align="center">
-    <img src="assets/images/css-validator-img.png"> 
+    <img src="./assets/images/css-validator-img.png"> 
     </p>
         
     -   ###  All pages came back with no errors.
