@@ -62,7 +62,7 @@ canvas.addEventListener("touchend", function(e) { // Listen for touchend
 // end......
 
 const bang = new Image();
-bang.src = "/assets/images/explosion.png";
+bang.src = "../assets/images/explosion.png";
 
 /* Credit: Code sourced from "Franks laboratory" and edited to
  *fit the projects needs
