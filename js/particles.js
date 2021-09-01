@@ -1,4 +1,4 @@
-// credit: code taken from youtuber Franks Laboratory and edited by developer 
+// credit: code taken from youtuber Franks Laboratory and customized by developer 
 // to fit the projects needs.
 
 const particlesArray = [];

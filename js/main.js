@@ -4,7 +4,7 @@ let ctx = canvas.getContext("2d");
 canvas.width = 600; // Game canvas width
 canvas.height = 500; // Game canvas height
 
-// Declare variables 
+// Declare variables
 let spacePressed = false;
 let touchScreen = false;
 let angle = 0;
@@ -50,38 +50,39 @@ window.addEventListener("keyup", function(e){ // Listen for keyup
         spacePressed = false;
     }
 });
-canvas.addEventListener("touchstart", function(e) { // Listen for touchstart custom code
+canvas.addEventListener("touchstart", function(e) { // Listen for touchstart
     if (e.touches >= "Touches") {
         touchScreen = true;
     }
 });
-canvas.addEventListener("touchend", function(e) { // Listen for touchend custom code
+canvas.addEventListener("touchend", function(e) { // Listen for touchend
     if (e.touches >= "Touches") {
         touchScreen = false;
     }
 });
 // end......
 
+/* credit: code taken from youtuber
+Franks Laboratory and customized by developer
+ to fit the projects needs */
+
 const bang = new Image();
 bang.src = "./assets/images/explosion.png";
-
-/* Credit: Code sourced from "Franks laboratory youtube tutorial" and edited to
- * fit the projects needs
- */
 function handleCollisions() { // Declair function
     for (let i = 0; i < obstaclesArray.length; i++) { // for loop
-        if (bird.x < obstaclesArray[i].x + obstaclesArray[i].width && // if statement
+        if (bird.x < obstaclesArray[i].x + obstaclesArray[i].width &&
             bird.x + bird.width > obstaclesArray[i].x &&
             ((bird.y < 0 + obstaclesArray[i].top && bird.y + bird.height > 0) ||
                 (bird.y > canvas.height - obstaclesArray[i].bottom &&
                     bird.y + bird.height < canvas.height))) {
+
             // collision detected
             ctx.drawImage(bang, bird.x, bird.y, 50, 50);
             ctx.font = "35px arial";
             ctx.fillStyle = "red";
             ctx.fillText("Game Over, your score is " + score, 90,
             canvas.height / 2.2);
-            setTimeout(function () { // custom code will auto reload the game. 
+            setTimeout(function () { // custom code will auto reload the game.
                 window.location.reload(1);
             }, 5000);
             return true;

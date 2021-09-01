@@ -1,9 +1,12 @@
+/* all custom code by developer */
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* background hero image */
 .hero-img {
     overflow: hidden;
     height: 100vh;
@@ -12,7 +15,7 @@
     background-size: cover;
 }
 
-/*main header styling*/
+/* main header styling */
 .header {
     text-align: center;
     margin-top: 30px;
@@ -23,14 +26,13 @@
     font-family: 'Press Start 2P', cursive;
 }
 
-/*logo styling*/
+/* logo styling */
 .logo {
     width: 100px;
 }
 
-/*canvas styling*/
+/* canvas styling */
 .canvas {
-    /*background-color: rgb(91, 155, 250); */
     border: 2px solid rgb(238, 238, 238);
     border-radius: 1%;
     position: absolute;
@@ -41,9 +43,9 @@
     transform: translate(-50%, -50%);
     background: url('../images/alien-planet.jpg') no-repeat;
     background-size: cover;
-
 }
 
+/* game control infomation */
 .controls {
     display: none;
     position: absolute;
@@ -58,6 +60,7 @@
     text-align: center;
 }
 
+/* game control infomation */
 .controls-2 {
     position: absolute;
     bottom: 80px;
@@ -71,6 +74,7 @@
     text-align: center;
 }
 
+/* tablet screen size */
 @media only screen and (max-width: 800px) {
     .canvas {
         width: 100%;
@@ -86,6 +90,8 @@
         display: none;
     }
 }
+
+/* tablet screen size */
 @media only screen and (max-width: 600px) {
     .canvas {
         width: 100%;
@@ -106,7 +112,7 @@
     }
 }
 
-/*mobile screen sizes*/
+/* mobile screen sizes */
 @media only screen and (max-width: 500px) {
     .canvas {
         width: 100%;
@@ -139,7 +145,7 @@
     }
 }
 
-/*mobile screen sizes*/
+/* mobile screen sizes */
 @media only screen and (max-width: 414px) {
     .canvas {
         width: 100%;
@@ -160,7 +166,7 @@
     }
 }
 
-/*mobile screen sizes*/
+/* small mobile screen sizes */
 @media only screen and (max-width: 375px) {
     .canvas {
         width: 100%;
