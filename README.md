@@ -8,8 +8,6 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 <img src="./assets/images/responsive-image.png">
 </p>
 
-
-
 ## User Experience (UX)
 
 -  ###  User stories 
@@ -90,7 +88,6 @@ This is the main website for Space Attack. It is a 2d game that allows players t
         <img width="360" height="500" src="./assets/images/mobile-devices.png">
         </p>
     
-  
     -  ### Colour Scheme
 
         -  The main colours used for the website are HSL colour hue and purple. 
@@ -112,7 +109,6 @@ This is the main website for Space Attack. It is a 2d game that allows players t
     -   ### Home Page Wireframe - [View](https://balsamiq.cloud/seqremb/ppq8zy/r6146)
 
     -  ### Mobile Wireframe - [View](https://balsamiq.cloud/seqremb/ppq8zy/rB1D5)
-
 
 -   ## Features
     
@@ -190,8 +186,8 @@ This is the main website for Space Attack. It is a 2d game that allows players t
     </p>
         
     -   ###  HTML and CSS came back with no errors.
-    -   ###  JavaScript came back with two errors that i was not able to fix.
 
+    -   ###  JavaScript came back with two errors that was not able to fixed.
 
 ## Testing User Stories from User Experience (UX) Section
 
@@ -228,7 +224,6 @@ This is the main website for Space Attack. It is a 2d game that allows players t
     2. As a Frequent User, I want the game to continue being challenging and fun to play
 
         1.  The game will generate random sized obstacles which become more difficult to avoid as the game progresses.
-
 
 ## Debugging
 
@@ -284,7 +279,6 @@ This is the main website for Space Attack. It is a 2d game that allows players t
     5. The page will automatically refresh.
     6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
   
-    
 -   ## Forking the GitHub Repository
 
     By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
@@ -317,8 +311,6 @@ This is the main website for Space Attack. It is a 2d game that allows players t
     > Unpacking objects: 100% (10/10), done.
 
  ```
-
-
 ## Credits
 
 ## Code
@@ -345,6 +337,3 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 ## Acknowledgements
 
 -   ### Tutor support at Code Institute for their support.
-
-    
-    
