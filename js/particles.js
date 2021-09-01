@@ -1,3 +1,6 @@
+// credit: code taken from youtuber Franks Laboratory and edited by developer 
+// to fit the projects needs.
+
 const particlesArray = [];
 
 class Particle {

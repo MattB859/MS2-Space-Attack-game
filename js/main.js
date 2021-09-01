@@ -4,7 +4,7 @@ let ctx = canvas.getContext("2d");
 canvas.width = 600; // Game canvas width
 canvas.height = 500; // Game canvas height
 
-// Declare variables
+// Declare variables 
 let spacePressed = false;
 let touchScreen = false;
 let angle = 0;
@@ -15,7 +15,8 @@ let gamespeed = 2;
 // end.....
 
 // Credit: Code sourced from w3school.com and edited
-// by developer to fit the projects needs
+// by developer to fit the projects needs.
+
 function animate() { // Declare function
     ctx.clearRect(0, 0, canvas.width, canvas.height); // Target properties
     handleObstacles(); // Function call handleObstacles()
@@ -49,12 +50,12 @@ window.addEventListener("keyup", function(e){ // Listen for keyup
         spacePressed = false;
     }
 });
-canvas.addEventListener("touchstart", function(e) { // Listen for touchstart
+canvas.addEventListener("touchstart", function(e) { // Listen for touchstart custom code
     if (e.touches >= "Touches") {
         touchScreen = true;
     }
 });
-canvas.addEventListener("touchend", function(e) { // Listen for touchend
+canvas.addEventListener("touchend", function(e) { // Listen for touchend custom code
     if (e.touches >= "Touches") {
         touchScreen = false;
     }
@@ -64,12 +65,12 @@ canvas.addEventListener("touchend", function(e) { // Listen for touchend
 const bang = new Image();
 bang.src = "./assets/images/explosion.png";
 
-/* Credit: Code sourced from "Franks laboratory you tube tutorial" and edited to
- *fit the projects needs
+/* Credit: Code sourced from "Franks laboratory youtube tutorial" and edited to
+ * fit the projects needs
  */
 function handleCollisions() { // Declair function
     for (let i = 0; i < obstaclesArray.length; i++) { // for loop
-        if (bird.x < obstaclesArray[i].x + obstaclesArray[i].width &&
+        if (bird.x < obstaclesArray[i].x + obstaclesArray[i].width && // if statement
             bird.x + bird.width > obstaclesArray[i].x &&
             ((bird.y < 0 + obstaclesArray[i].top && bird.y + bird.height > 0) ||
                 (bird.y > canvas.height - obstaclesArray[i].bottom &&
@@ -80,9 +81,7 @@ function handleCollisions() { // Declair function
             ctx.fillStyle = "red";
             ctx.fillText("Game Over, your score is " + score, 90,
             canvas.height / 2.2);
-            /*This custom code has a timer that
-             * will restart the game after player loses*/
-            setTimeout(function () {
+            setTimeout(function () { // custom code will auto reload the game. 
                 window.location.reload(1);
             }, 5000);
             return true;
