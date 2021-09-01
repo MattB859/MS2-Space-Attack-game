@@ -165,6 +165,14 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 
     -  [JS Lint](https://www.jslint.com/)
 
+    <p align="center">
+    <img src="./assets/images/jslint.png"> 
+    </p>
+
+    <p align="center">
+    <img src="./assets/images/jslint-2.png"> 
+    </p>
+
 -   ### HTML5 
 
     -  [W3C Markup Validator](https://validator.w3.org/)
@@ -181,7 +189,8 @@ This is the main website for Space Attack. It is a 2d game that allows players t
     <img src="./assets/images/css-validator-img.png"> 
     </p>
         
-    -   ###  All pages came back with no errors.
+    -   ###  HTML and CSS came back with no errors.
+    -   ###  JavaScript came back with two errors that i was not able to fix.
 
 
 ## Testing User Stories from User Experience (UX) Section
@@ -259,7 +268,7 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 
     -  Filepath issues/404 errors
 
-    -  Images and assets files are not being read. This bug has now been fixed with the right filepaths.
+    -  Images and assets files were not being read. This bug has now been fixed with the right filepaths.
 
 ## Deployment
 
@@ -322,6 +331,9 @@ This is the main website for Space Attack. It is a 2d game that allows players t
     <img width="600px" height="300px" src="./assets/images/www.w3schools.com.png">
     </p>
 
+-  ### Youtube Tutorials was also used as a general source of help.
+   
+ -  [Franks laboratory](https://www.youtube.com/watch?v=lGJ9i6CYKyQ)     
 
 ## Content 
 
@@ -330,7 +342,6 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 -  ### The main background hero image was sourced from freepik.com
     <a href="https://www.freepik.com/vectors/leaf">vector created by upklyak - www.freepik.com</a>
 
-   
 ## Acknowledgements
 
 -   ### Tutor support at Code Institute for their support.
