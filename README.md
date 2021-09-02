@@ -187,7 +187,7 @@ This is the main website for Space Attack. It is a 2d game that allows players t
         
     -   ###  HTML and CSS came back with no errors.
 
-    -   ###  JavaScript came back with two errors that was not able to fixed.
+    -   ###  JavaScript was identified having two minor errors in which i was unable to correct, however this does not seem to affect the performance of the game.
 
 ## Testing User Stories from User Experience (UX) Section
 
