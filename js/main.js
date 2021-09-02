@@ -27,7 +27,7 @@ function animate() { // Declare function
     ctx.strokeText(score, 450, 70);
     ctx.fillText(score, 450, 70);
     handleCollisions(); // Call handleCollisions()
-    if (handleCollisions()) {
+    if (handleCollisions()) { // Conditional statement
         return;
     }
     handleParticles();
@@ -36,22 +36,24 @@ function animate() { // Declare function
     hue++;
     frame++;
 }
-animate();
+animate(); // Function call animate()
+// end.....
 
 
 //Custom code by developer
 window.addEventListener("keydown", function(e){ // Listen for keydown
-    if (e.code === "Space") {
+    if (e.code === "Space") { // Conditional statement
         spacePressed = true;
     }
 });
 window.addEventListener("keyup", function(e){ // Listen for keyup
-    if (e.code === "Space") {
+    if (e.code === "Space") { // Conditional statement
         spacePressed = false;
     }
 });
+//Custom code by developer
 canvas.addEventListener("touchstart", function(e) { // Listen for touchstart
-    if (e.touches >= "Touches") {
+    if (e.touches >= "Touches") { // Conditional statement
         touchScreen = true;
     }
 });
@@ -68,7 +70,8 @@ Franks Laboratory and customized by developer
 
 const bang = new Image();
 bang.src = "./assets/images/explosion.png";
-function handleCollisions() { // Declair function
+
+function handleCollisions() { // Declare function
     for (let i = 0; i < obstaclesArray.length; i++) { // for loop
         if (bird.x < obstaclesArray[i].x + obstaclesArray[i].width &&
             bird.x + bird.width > obstaclesArray[i].x &&
