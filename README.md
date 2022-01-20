@@ -1,6 +1,6 @@
 <h1 align="center">Space Attack</h1>
 
-This is the main website for Space Attack. It is a 2d game that allows players to fly in outter space while avoiding obstacles. It is designed to be responsive and accessible on multiple devices, making it easy to navigate for new and existing visitors.
+This is the main website for Space Attack. It is a 2D game that allows players to fly in outter space while avoiding obstacles. It is designed to be responsive and accessible on multiple devices, making it easy to navigate for new and existing visitors.
 
 [visit website here](https://mattb859.github.io/MS2-Space-Attack-game/)
 
@@ -8,150 +8,149 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 <img src="./assets/images/responsive-image.png">
 </p>
 
-## User Experience (UX)
+# User Experience (UX)
 
--  ###  User stories 
+##  User stories 
 
-    -   ### First Time User Goals 
+-   ### First Time User Goals 
 
-        1. As a First Time User, I want to easily understand the main purpose of the site.
+    - As a First Time User, I want to easily understand the main purpose of the site.
 
-        2. As a First Time User, I want the game controls to be simple and easy to use.
+    - As a First Time User, I want the gameplay and controls to be user friendly.
 
-        3. As a First Time User, I want the game to be challenging.
+    - As a First Time User, I want the game to be challenging.
 
-        4. As a First Time User, I want the site to be responsive.
+    - As a First Time User, I want the site to be responsive.
         
-    -   ### Returning User Goals 
+-   ### Returning User Goals 
         
-        1. As a Returning User, I want to view my current score so i can keep track of my progress.
+    - As a Returning User, I want to view my current score so i can keep track of my progress.
 
-        2. As a Returning User, I want the game to automatically
-        restart after i lose.
+    - As a Returning User, I want the game to automatically
+    restart after i lose.
 
-        3. As a Returning User, I want to see my total score at the end of every game.
+    - As a Returning User, I want to see my total score at the end of every game.
 
+-   ### Frequent User Goals
 
-    -   ### Frequent User Goals
+    - As a Frequent User, I want the site to be responsive so i can play on the go.
 
-        1. As a Frequent User, I want the site to be responsive so i can play on the go.
-
-        2. As a Frequent User, I want the game and website to load fast.
+    - As a Frequent User,  I want to easily navigate through the site.
         
-        3. As a Frequent User, I want to see if there are any newly added gaming updates. 
 
+# Website Design
 
--  ### Website Design
+## Home Page
 
-    -   ### Home Page
+- For the home page Imagery is very important. The large background hero image is designed to capture the visitor's attention.
 
-        1. For the home page Imagery is very important. The large background hero image is designed to capture the visitor's attention.
+-  At the bottom for the page visitors can find instructions on how to play the game.
 
-        2. At the bottom for the page visitors can find instructions on how to play the game.
+-  To play the game on desktop and laptop devices users will need to hold the spacebar to fly the spacecraft and avoid collision with the obstacles.
 
-        3. To play the game visitors will need to tap the spacebar to fly the spaceship and avoid hitting the obstacles.
+<p align="center">
+<img src="./assets/images/page-shot.png">
+ </p>
 
-        <p align="center">
-        <img src="./assets/images/page-shot.png">
-        </p>
+## Game Canvas
 
-    -   ### Game Canvas
+- The main gaming canvas is placed in the centre of the page. 
 
-        1. The main gaming canvas is placed in the centre of the page. 
+- The games background image is a retro 2d alien planet. It adds an aesthetic look to the game with a colourful fun representation of an alien planet.
 
-        2. The games background image is a retro 2d alien planet. It adds an aesthetic look to the game with a colourful fun representation of an alien planet.
-
-        <p align="center">
-        <img width="400px" height="350px" src="./assets/images/alien-attack.png">
-        </p>
+<p align="center">
+<img width="400px" height="350px" src="./assets/images/alien-attack.png">
+</p>
         
-    -   ### Header
+## Header
 
-        1. When entering the website, users are instantly greeted with a clean and easy to read header.
+- When entering the website, users are instantly greeted with a clean and easy to read header.
 
 
-        <p align="center">
-        <img src="./assets/images/header-h1.png">
-        </p>
+<p align="center">
+<img src="./assets/images/header-h1.png">
+</p>
 
-    -   ###   Mobile View
+## Mobile View
 
-        1. This is the layout for mobile and tablet devices when displayed vertically.
+-  This is the layout for mobile and tablet devices when displayed vertically.
 
-        -   ###   Touch game controls    
+## Touch game controls    
 
-        1. The game has a touch control feature that allows players to tap the screen to move the space craft up and down.
+-  The game has a touch control feature that allow users to press the screen to move the spacecraft up and down.
 
-        <p align="center">
+<p align="center">
       
-        <img width="360" height="500" src="./assets/images/mobile-devices.png">
-        </p>
+<img width="360" height="500" src="./assets/images/mobile-devices.png">
+</p>
     
-    -  ### Colour Scheme
+## Colour Scheme
 
-        -  The main colours used for the website are HSL colour hue and purple. 
+-  The main colours used for the website are HSL colour hue and purple. 
 
-    <p align="center">
-    <img width="600px" height="300px" src="./assets/images/colors.png">
-    </p>
+<p align="center">
+<img width="600px" height="300px" src="./assets/images/colors.png">
+</p>
 
-    - ### Typography
+## Typography
 
-        -  Google Fonts "Press Start 2P" font family is used for the header text it adds an authentic retro feel to the website.
+-  Google Fonts "Press Start 2P" font family is used for the header text it adds an authentic retro feel to the website.
 
-    <p align="center">
-    <img src="./assets/images/google-fonts.png">
-    </p>
+<p align="center">
+<img src="./assets/images/google-fonts.png">
+</p>
 
 # Wireframes
 
-### Desktop view
+## Desktop
 
-- [Game Play](assets/images/wireframe-1.png)
-- [Game Over](assets/images/wireframe-2.png)
+- [Home View](assets/images/wireframe-1.png)
+- [Home View](assets/images/wireframe-2.png)
 
-### Mobile view
+## Mobile
 
-- [Game Play](assets/images/wireframe-3.png)
+- [Mobile View](assets/images/wireframe-3.png)
 
-### Tablet view
+## Tablet
 
-- [Game Play](assets/images/tablet-wireframe.png)
+- [Tablet View](assets/images/tablet-wireframe.png)
 
 
--   ## Features
+# Features
     
--  ### Current Features
+## Current Features
 
--   This is a one page interactive game.
+- This is a single page interactive 2D game.
 
--   The game is fully responsive on all devices.
+- The site is fully responsive on all devices.
 
--   In order to play the game on desktop and laptop devices users can press and hold the spacebar to ascend the spaceship and release to descend.
+- Gameplay on desktop and laptop devices use the spacebar.
 
--   Touch screen controls are used on mobile and tablet devices.
+- Touch screen controls are used on mobile and tablet devices.
 
--   The game generates random obstacles which become more difficult to avoid as the game progresses.
+- The game generates random obstacles which become more difficult to avoid as the game progresses.
 
--   A score is generated after each obstacle you avoid.
+- A score is generated after each obstacle you avoid.
 
--  ## Future Features
+- A total score count is displayed at the end of the game.
 
--   For future features i would like to add multiple levels.
+## Future Features
 
--   For future features i would like to add a gaming menu.
+- For future features i would like to add multiple game levels with different background images.
 
--   For future features i would like to add a pause and play button
+- For future features i would like to add a pause and start game button.
+
+- For future features i would like to save and store a users total score.
 
 # Technologies Used
 
-### Languages
+## Languages
     
 -  ### [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -  ### [CSS3](https://en.wikipedia.org/wiki/CSS)
--  ### [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+-  ### [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-### Project Management
+## Project Management
     
 -  ### [GitHub](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
@@ -162,13 +161,10 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 -  ### [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-###  Tools 
+##  Tools 
 
 -  ### [Google Fonts](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-   
--  ### [Font Awesome](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Google fonts were used to import the sites font.
 
 -  ### [Balsamiq](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
@@ -221,13 +217,17 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 | User Stories | Expectation | Testing | Results | Pass/Fail |
 | ------------ | ----------- | ------- | ------- | :------:  |
 | First Time User    | I want... |    |  |           |
-| | "To understand the main purpose of the site" | On entering the site visitors are greeted with a hero <br> image of planets in space and a clean easy to read header. | Enter the site visitors can see a header "Space Attack" <br> and a hero image [view here](assets/images/header3.png) | Pass |
-| | "The controls to be simple and easy to use" | On desktop and laptop computers press and hold <br> the spacebar. On mobile and tablet devices press and hold the screen to play| Spaceship fly's up when controls are held <br> down and decends when controls are released | Pass |
-| | "The game to be challenging" | Game difficulty increases steadily along the course of the game as obstacles are generate becoming more difficult to avoid.| Different obstacle sizes <br> are generated for a more <br> challenging gameplay <br> [view here](assets/images/alien-attack.png)   | Pass |
+| | "To understand the main purpose of the site" | On entering the site users are greeted with a hero <br> image of planets in space and a clean easy to read header. | Enter the site users can see a header "Space Attack" <br> and a hero image [view here](assets/images/header3.png) | Pass |
+| | "The gameplay and controls to be user friendly" | Hold the spacebar down on desktop and laptop devices. Touch the screen to play on mobile and tablet devices| Spacecraft moves up when controls are press <br> down and decends when controls are released | Pass |
+| | "The game to be challenging" | Game difficulty increases steadily along the course of the game as obstacles become more difficult to avoid.| Different obstacle sizes <br> are generated for a more <br> challenging gameplay <br> [view here](assets/images/alien-attack.png)   | Pass |
 | Returning User | "To view my score count" | Navigate to the top right corner of the screen to find the users game score. | Game score count can be seen [view here](assets/images/alien-attack.png) | Pass | 
 |  | "The game to automatically <br> restart after i lose." | After losing a game | The game will automatically restart after 5s allowing users to start over | Pass |
 | |  "To see my total score at the end of every game." | After every game lose a message will be displayed. | "Game Over, your score is.." [view here](assets/images/game-over-1.png)  | Pass |
-| Frequent User  | "The site to be responsive" | The game is fully responsive on mobile and tablet devices. | Open the site using a mobile or <br> tablet device to see site responsivness | pass |
+| Frequent User  | "The site to be responsive" | The game is fully responsive on mobile and tablet devices. | Open the site using a mobile or <br> tablet device to see site responsiveness | pass |
+|   |  "To easily navigate through the site."|  Navigate to the site |At this stage the user <br> would already be comfortable with the page layout and can navigate with ease. | Pass |
+
+
+
 
 
 
@@ -267,40 +267,38 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 
 -   ### Fixed Bugs
 
-    -  Filepath issues/404 errors
+    - Filepath issues/404 errors
 
-    -  Images and assets files were not being read. This bug has now been fixed with the right filepaths.
+    - Images and assets files were not being read. This bug has now been fixed with the right filepaths.
 
-## Deployment
+# Deployment
 
 ## GitHub Pages
 
--   The project was deployed to GitHub Pages using the following steps...    
- 
-    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-    2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-    3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-    4. Under "Source", click the dropdown called "None" and select "Master Branch".
-    5. The page will automatically refresh.
-    6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
-  
--   ## Forking the GitHub Repository
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+   Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
-    By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+## Forking the GitHub Repository
 
-    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-    2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-    3. You should now have a copy of the original repository in your GitHub account.
+- By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
--   ## Making a Local Clone
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
 
-    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-    2. Under the repository name, click "Clone or download".
-    3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-    4. Open Git Bash
-    5. Change the current working directory to the location where you want the cloned directory to be made.
-    6. Type `git clone`, and then paste the URL you copied in Step 3.
+## Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
     $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
@@ -315,21 +313,17 @@ This is the main website for Space Attack. It is a 2d game that allows players t
     > remote: Compressing objects: 100% (8/8), done.
     > remove: Total 10 (delta 1), reused 10 (delta 1)
     > Unpacking objects: 100% (10/10), done.
-
- ```
-## Credits
+```
+---
+# Credits
 
 ## Code
 
--   ### The Code Institute material was the main source of information used to create this project. 
+-   ### The Code Institute material was the main source of information used to help create this project. 
 
--   ### W3Schools was used as a general source of knowledge and a blueprint for creating the game.
+-   ### W3Schools was used as a general source of knowledge.
 
-    <p align="center">
-    <img width="600px" height="300px" src="./assets/images/www.w3schools.com.png">
-    </p>
-
--  ### Youtube Tutorials was also used as a general source of help.
+-  ### Youtube Tutorials were used for additional help and knowledge.
    
  -  [Franks laboratory](https://www.youtube.com/watch?v=lGJ9i6CYKyQ)     
 
