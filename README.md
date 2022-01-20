@@ -12,35 +12,34 @@ This is the main website for Space Attack. It is a 2d game that allows players t
 
 -  ###  User stories 
 
-    -   ### First Time Visitor Goals 
+    -   ### First Time User Goals 
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the game.
+        1. As a First Time User, I want to easily understand the main purpose of the site.
 
-        2. As a First Time Visitor, I want the game controls to be simple and easy to use.
+        2. As a First Time User, I want the game controls to be simple and easy to use.
 
-        3. As a First Time Visitor, I want the game to be fun and challenging.
+        3. As a First Time User, I want the game to be challenging.
 
-        4. As a First Time Visitor, I want the website and game to load fast.
+        4. As a First Time User, I want the site to be responsive.
         
-    -   ### Returning Visitor Goals 
-
-        1. As a Returning Visitor, I want to be able to play the game on multiple devices. 
+    -   ### Returning User Goals 
         
-        2. As a Returning Visitor, I want to see if there is any new updated information that i may find useful.
+        1. As a Returning User, I want to view my current score so i can keep track of my progress.
 
-        3. As a Returning Visitor, I want to see if there have been any new features added to the game.
+        2. As a Returning User, I want the game to automatically
+        restart after i lose.
 
-        4. As a Returning Visitor, I want to see new games added that i can enjoy.
+        3. As a Returning User, I want to see my total score at the end of every game.
+
 
     -   ### Frequent User Goals
 
-        1. As a Frequent User, I want to play games on the go using my mobile device.
+        1. As a Frequent User, I want the site to be responsive so i can play on the go.
 
         2. As a Frequent User, I want the game and website to load fast.
         
         3. As a Frequent User, I want to see if there are any newly added gaming updates. 
 
-        4. As a Frequent User, I want the game to continue being challenging and fun to play
 
 -  ### Website Design
 
@@ -104,60 +103,87 @@ This is the main website for Space Attack. It is a 2d game that allows players t
     <img src="./assets/images/google-fonts.png">
     </p>
 
--  ## Wireframes
+# Wireframes
 
-    -   ### Home Page Wireframe - [View](https://balsamiq.cloud/seqremb/ppq8zy/r6146)
+### Desktop view
 
-    -  ### Mobile Wireframe - [View](https://balsamiq.cloud/seqremb/ppq8zy/rB1D5)
+- [Game Play](assets/images/wireframe-1.png)
+- [Game Over](assets/images/wireframe-2.png)
+
+### Mobile view
+
+- [Game Play](assets/images/wireframe-3.png)
+
+### Tablet view
+
+- [Game Play](assets/images/tablet-wireframe.png)
+
 
 -   ## Features
     
-    -  ### Current Features
+-  ### Current Features
 
-       1. This is a one page interactive game.
+-   This is a one page interactive game.
 
-       2. The game is fully responsive on all devices.
+-   The game is fully responsive on all devices.
 
-       3. The spacebar is used to control the game when displayed on desktop and laptop devices and touch screen controls when displayed on small mobile and tablet devices.
+-   In order to play the game on desktop and laptop devices users can press and hold the spacebar to ascend the spaceship and release to descend.
 
-       4. The game generates random obstacles which become more difficult to avoid as the game progresses.
+-   Touch screen controls are used on mobile and tablet devices.
 
-       5. A score is generated after each obstacle you avoid and feeds you back your results at the end of the game.
+-   The game generates random obstacles which become more difficult to avoid as the game progresses.
 
-    -  ### Future Features
+-   A score is generated after each obstacle you avoid.
 
-       1. To add sound fx for game play.
+-  ## Future Features
 
-       2. To add multiple levels.
+-   For future features i would like to add multiple levels.
 
-       3. To add a gaming menu.    
+-   For future features i would like to add a gaming menu.
 
-    ## Technologies Used
+-   For future features i would like to add a pause and play button
 
--   ### Languages Used
+# Technologies Used
 
-    -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
-    -   [CSS3](https://en.wikipedia.org/wiki/CSS)
-    -   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+### Languages
+    
+-  ### [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-  ### [CSS3](https://en.wikipedia.org/wiki/CSS)
+-  ### [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
-    ### Frameworks, Libraries & Programs Used
+### Project Management
+    
+-  ### [GitHub](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+   
+-  ### [GitPod](https://www.gitpod.io/)
+    - GitPod was used for the projects workspace 
 
-    1. [Google Fonts:](https://fonts.google.com/)
-    -  Google fonts were used to import 'Press Start 2P' font for the page header which is used throughout the website.
-    1. [Git:](https://git-scm.com/)
-    -  Git was used for version control by utilizing the Gitpod terminal to commit to Git and Puch to GitHub.
-    1. [GitHub:](https://github.com/)
-    -  GitHub is used to store project codes after being pushed from the Gitpod terminal.
-    1. [Balsamiq:](https://balsamiq.com/)
+-  ### [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+###  Tools 
+
+-  ### [Google Fonts](https://fonts.google.com/)
+    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+   
+-  ### [Font Awesome](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
+-  ### [Balsamiq](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
 
-    ## Testing
+-  ### [Am I Responsive](http://ami.responsivedesign.is/)
+    - Am I Responsive was used capture the websites design on different screen size.
+
+
+# Testing
     
--   ### Validator Testing    
+-   ## Validator Testing    
 
     - The JSLint validator, W3C Markup Validator, and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   ### JavaScript
+-   ## JavaScript
 
     -  [JS Lint](https://www.jslint.com/)
 
@@ -169,7 +195,7 @@ This is the main website for Space Attack. It is a 2d game that allows players t
     <img src="./assets/images/jslint-2.png"> 
     </p>
 
--   ### HTML5 
+-   ## HTML5 
 
     -  [W3C Markup Validator](https://validator.w3.org/)
 
@@ -177,7 +203,7 @@ This is the main website for Space Attack. It is a 2d game that allows players t
     <img src="./assets/images/html-validator.w3.org.png"> 
     </p>
 
--   ### CSS3
+-   ## CSS3
 
     -  [W3C CSS Markup Validator](https://jigsaw.w3.org/css-validator/)
 
@@ -185,45 +211,25 @@ This is the main website for Space Attack. It is a 2d game that allows players t
     <img src="./assets/images/css-validator-img.png"> 
     </p>
         
-    -   ###  HTML and CSS came back with no errors.
+-   ###  HTML and CSS came back with no errors.
 
-    -   ###  JavaScript was identified having two minor errors in which i was unable to correct, however this does not seem to affect the performance of the game.
+-   ###  JavaScript was identified having two minor errors in which i was unable to correct, however this does not seem to affect the performance of the game.
 
-## Testing User Stories from User Experience (UX) Section
 
--   ### First Time Visitor Goals
+## Testing User Stories from User Experience (UX)
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the game.
+| User Stories | Expectation | Testing | Results | Pass/Fail |
+| ------------ | ----------- | ------- | ------- | :------:  |
+| First Time User    | I want... |    |  |           |
+| | "To understand the main purpose of the site" | On entering the site visitors are greeted with a hero <br> image of planets in space and a clean easy to read header. | Enter the site visitors can see a header "Space Attack" <br> and a hero image [view here](assets/images/header3.png) | Pass |
+| | "The controls to be simple and easy to use" | On desktop and laptop computers press and hold <br> the spacebar. On mobile and tablet devices press and hold the screen to play| Spaceship fly's up when controls are held <br> down and decends when controls are released | Pass |
+| | "The game to be challenging" | Game difficulty increases steadily along the course of the game as obstacles are generate becoming more difficult to avoid.| Different obstacle sizes <br> are generated for a more <br> challenging gameplay <br> [view here](assets/images/alien-attack.png)   | Pass |
+| Returning User | "To view my score count" | Navigate to the top right corner of the screen to find the users game score. | Game score count can be seen [view here](assets/images/alien-attack.png) | Pass | 
+|  | "The game to automatically <br> restart after i lose." | After losing a game | The game will automatically restart after 5s allowing users to start over | Pass |
+| |  "To see my total score at the end of every game." | After every game lose a message will be displayed. | "Game Over, your score is.." [view here](assets/images/game-over-1.png)  | Pass |
+| Frequent User  | "The site to be responsive" | The game is fully responsive on mobile and tablet devices. | Open the site using a mobile or <br> tablet device to see site responsivness | pass |
 
-        1. When entering the website, users are instantly greeted with a clean and easy to read header.
 
-        2. The Hero Image and header immediately lets visitors know what the website is all about.
-
-        3. The visitor is able start playing the game right away, instructions at the bottom of the page tell users how to play the game.
-
-    2. As a First Time Visitor, I want the game controls to be simple and easy to use.
-
-        1. The game has been designed to be user-friendly for all ages. 
-        
-        2. For desktop and laptop computers the "spacebar" is used to control the game visitors can find instructions at the bottom of the page.
-
-        2. For mobile and tablet devices visitors can simple control the game by tapping their screens.
-
-    3.  As a Returning Visitor, I want to be able to play the game on multiple devices. 
-
-        1.  The game is fully responsive on mobile and tablet devices. 
-
-        2.  Users can play the game on the go and never feel restricted to a computer.
-
-    -   #### Frequent User Goals
-
-    1. As a Frequent User, I want the game and website to load fast.
-
-        1. The game will automatically restart after 5s when the game ends allowing users to start over.
-
-    2. As a Frequent User, I want the game to continue being challenging and fun to play
-
-        1.  The game will generate random sized obstacles which become more difficult to avoid as the game progresses.
 
 ## Debugging
 
