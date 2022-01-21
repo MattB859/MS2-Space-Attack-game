@@ -1,6 +1,6 @@
 <h1 align="center">Space Attack</h1>
 
-This is the main website for Space Attack. It is a 2D game that allows players to fly in outter space while avoiding obstacles. It is designed to be responsive and accessible on multiple devices, making it easy to navigate for new and existing visitors.
+This is the main website for Space Attack. It is a 2D game that allows players to fly in outer space while avoiding obstacles. It is designed to be responsive and accessible on multiple devices, making it easy to navigate for new and existing visitors.
 
 [visit website here](https://mattb859.github.io/MS2-Space-Attack-game/)
 
@@ -86,15 +86,15 @@ This is the main website for Space Attack. It is a 2D game that allows players t
     
 ## Colour Scheme
 
--  The main colours used for the website are HSL colour hue and purple. 
+-  The Coolors palette was used to put together a colour scheme for the game. 
 
 <p align="center">
-<img width="600px" height="300px" src="./assets/images/colors.png">
+<img width="100%"  src="./assets/images/Space-Attack-Pallet.png">
 </p>
 
 ## Typography
 
--  Google Fonts "Press Start 2P" font family is used for the header text it adds an authentic retro feel to the website.
+-  Google Fonts "Press Start 2P" font family is used for the website header it adds a retro look to the game.
 
 <p align="center">
 <img src="./assets/images/google-fonts.png">
@@ -140,7 +140,7 @@ This is the main website for Space Attack. It is a 2D game that allows players t
 
 - For future features i would like to add a pause and start game button.
 
-- For future features i would like to save and store a users total score.
+- For future features i would like to save and store a user's total score.
 
 # Technologies Used
 
@@ -175,101 +175,104 @@ This is the main website for Space Attack. It is a 2D game that allows players t
 
 # Testing
     
--   ## Validator Testing    
+## Validator Testing    
 
-    - The JSLint validator, W3C Markup Validator, and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The JSLint validator, W3C Markup Validator, and W3C CSS Validator Services were used to validate every page of the project to ensure there were no major syntax errors in the project.
 
--   ## JavaScript
+## JavaScript
 
-    -  [JS Lint](https://www.jslint.com/)
+-   ###  JavaScript was identified having two minor errors in which i was unable to correct, however this did not seem to affect the performance of the game.
 
-    <p align="center">
-    <img src="./assets/images/jslint.png"> 
-    </p>
+-  [JS Lint](https://www.jslint.com/)
 
-    <p align="center">
-    <img src="./assets/images/jslint-2.png"> 
-    </p>
 
--   ## HTML5 
+-  [view here](./assets/images/jslint-2.png) 
 
-    -  [W3C Markup Validator](https://validator.w3.org/)
 
-    <p align="center">
-    <img src="./assets/images/html-validator.w3.org.png"> 
-    </p>
+## HTML5 
 
--   ## CSS3
+-   ### HTML came back with no errors.
 
-    -  [W3C CSS Markup Validator](https://jigsaw.w3.org/css-validator/)
+-  [W3C Markup Validator](https://validator.w3.org/)
 
-    <p align="center">
-    <img src="./assets/images/css-validator-img.png"> 
-    </p>
+<p align="center">
+<img src="./assets/images/html-validator.w3.org.png"> 
+</p>
+
+## CSS3
+
+-   ### CSS came back with no errors.
+
+-  [W3C CSS Markup Validator](https://jigsaw.w3.org/css-validator/)
+
+<p align="center">
+<img src="./assets/images/css-validator-img.png"> 
+</p>
         
--   ###  HTML and CSS came back with no errors.
 
--   ###  JavaScript was identified having two minor errors in which i was unable to correct, however this does not seem to affect the performance of the game.
-
-
-## Testing User Stories from User Experience (UX)
+# Testing User Stories from User Experience (UX)
 
 | User Stories | Expectation | Testing | Results | Pass/Fail |
 | ------------ | ----------- | ------- | ------- | :------:  |
 | First Time User    | I want... |    |  |           |
 | | "To understand the main purpose of the site" | On entering the site users are greeted with a hero <br> image of planets in space and a clean easy to read header. | Enter the site users can see a header "Space Attack" <br> and a hero image [view here](assets/images/header3.png) | Pass |
-| | "The gameplay and controls to be user friendly" | Hold the spacebar down on desktop and laptop devices. Touch the screen to play on mobile and tablet devices| Spacecraft moves up when controls are press <br> down and decends when controls are released | Pass |
+| | "The gameplay and controls to be user friendly" | Hold the spacebar down on desktop and laptop devices. Touch the screen to play on mobile and tablet devices| Spacecraft moves up when controls are press <br> down and descends when controls are released | Pass |
 | | "The game to be challenging" | Game difficulty increases steadily along the course of the game as obstacles become more difficult to avoid.| Different obstacle sizes <br> are generated for a more <br> challenging gameplay <br> [view here](assets/images/alien-attack.png)   | Pass |
 | Returning User | "To view my score count" | Navigate to the top right corner of the screen to find the users game score. | Game score count can be seen [view here](assets/images/alien-attack.png) | Pass | 
 |  | "The game to automatically <br> restart after i lose." | After losing a game | The game will automatically restart after 5s allowing users to start over | Pass |
-| |  "To see my total score at the end of every game." | After every game lose a message will be displayed. | "Game Over, your score is.." [view here](assets/images/game-over-1.png)  | Pass |
+| |  "To see my total score at the end of every game." | After every game lose a message will be displayed. | "Game Over, your score is..." [view here](assets/images/game-over-1.png)  | Pass |
 | Frequent User  | "The site to be responsive" | The game is fully responsive on mobile and tablet devices. | Open the site using a mobile or <br> tablet device to see site responsiveness | pass |
 |   |  "To easily navigate through the site."|  Navigate to the site |At this stage the user <br> would already be comfortable with the page layout and can navigate with ease. | Pass |
 
 
 
 
+# Debugging
 
+## JavaScript
 
-## Debugging
+- Chrome Developer Tools were used for the debugging of JavaScript in the browser (Chrome, Firefox) with F12, and select "Console" in the debugger menu.
 
--   ### Chrome Developer Tools
+- ``console.log()`` was used to display JavaScript values in the debugger window:
 
-    -  Chrome Dev Tools console was used for the debugging of JavaScript. It helped to diagnose problems, and debug issues right in the browers.
+## HTML5, CSS3
 
--   ### Further Testing
+-  Chrome Developer Tools were used for the inspection of (HTML, CSS) with F12, and select "Elements" in the debugger menu.
 
-    -   The Website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
+## Further Testing
 
-    -   The website was viewed on a variety of devices such as 
-        - Desktop 
-        - Laptop 
-        - Motorola G4 
-        - Galaxy S5/7
-        - Pixel 2
-        - Pixel 2 XL 
-        - iPhone 5/SE 
-        - iPhone 6/7/8/Plus 
-        - iPhone X, 
-        - ipad/Pro.
+- The Website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
 
-    -   A large amount of testing was done to ensure that all pages are responsive.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-    -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+- A large amount of testing was done to ensure that all pages are responsive. The website was viewed on a variety of devices such as 
 
--   ### Known Bugs
+- ## Desktop 
+- ## Laptop 
+- ## Motorola G4 
+- ## Galaxy S5/7
+- ## Pixel 2
+- ## Pixel 2 XL 
+- ## iPhone 5/SE 
+- ## iPhone 6/7/8/Plus 
+- ## iPhone X, 
+- ## iPad/Pro.
 
-    -   I removed this code which kept returning an error in the console. The code was created to add sound fx when the spaceship made contact with an obstacle.
+## Known Bugs
 
-    <p align="center">
-    <img src="./assets/images/JS-code.png"> 
-    </p>
+-   I removed this code which kept returning an error in the console. The code was created to add sound when the spaceship contacted an obstacle.
 
--   ### Fixed Bugs
+<p align="center">
+<img src="./assets/images/JS-code.png"> 
+</p>
 
-    - Filepath issues/404 errors
+## Fixed Bugs
 
-    - Images and assets files were not being read. This bug has now been fixed with the right filepaths.
+- File path issues/404 error. Images and assets files were not being read.
+``` ('/images/galaxy2.jpg') ```
+
+- Bug has been fixed with the correct file path.
+`` ('../images/galaxy2.jpg') ``
 
 # Deployment
 
@@ -323,7 +326,7 @@ This is the main website for Space Attack. It is a 2D game that allows players t
 
 -   ### W3Schools was used as a general source of knowledge.
 
--  ### Youtube Tutorials were used for additional help and knowledge.
+-  ### YouTube Tutorials were used for additional help and knowledge.
    
  -  [Franks laboratory](https://www.youtube.com/watch?v=lGJ9i6CYKyQ)     
 
