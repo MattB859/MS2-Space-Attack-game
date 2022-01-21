@@ -120,27 +120,30 @@ This is the main website for Space Attack. It is a 2D game that allows players t
     
 ## Current Features
 
-- This is a single page interactive 2D game.
+- Interactive 2D game
 
-- The site is fully responsive on all devices.
+- Responsive on all device sizes
 
-- Gameplay on desktop and laptop devices use the spacebar.
+- Keybord controls
 
-- Touch screen controls are used on mobile and tablet devices.
+- Touch screen controls
 
-- The game generates random obstacles which become more difficult to avoid as the game progresses.
+- Score count display
 
-- A score is generated after each obstacle you avoid.
+- Total score count display
 
-- A total score count is displayed at the end of the game.
+- Game auto start
+
+- Collision detection
 
 ## Future Features
 
-- For future features i would like to add multiple game levels with different background images.
+- To add multiple game levels.
 
-- For future features i would like to add a pause and start game button.
+- To add a pause and start button.
 
-- For future features i would like to save and store a user's total score.
+- To save and store user's high score count.
+
 
 # Technologies Used
 
@@ -330,9 +333,13 @@ The JSLint validator, W3C Markup Validator, and W3C CSS Validator Services were 
    
  -  [Franks laboratory](https://www.youtube.com/watch?v=lGJ9i6CYKyQ)     
 
-## Content 
+## Content
+
+- ### All content was written by the developer.
 
 - ###  Psychological properties of colours text in the README.md was found - [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+
+## Media
 
 -  ### The main background hero image was sourced from freepik.com
     <a href="https://www.freepik.com/vectors/leaf">vector created by upklyak - www.freepik.com</a>
