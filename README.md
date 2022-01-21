@@ -38,67 +38,46 @@ This is the main website for Space Attack. It is a 2D game that allows players t
     - As a Frequent User,  I want to easily navigate through the site.
         
 
-# Website Design
+# Design
 
-## Home Page
+- ### Colour Scheme
 
-- For the home page Imagery is very important. The large background hero image is designed to capture the visitor's attention.
+    - The Coolors palette was used to put together a colour scheme for the game. 
 
--  At the bottom for the page visitors can find instructions on how to play the game.
+    <p align="center">
+    <img width="60%"  src="./assets/images/Space-Attack-Pallet.png">
+    </p>
 
--  To play the game on desktop and laptop devices users will need to hold the spacebar to fly the spacecraft and avoid collision with the obstacles.
+- ### Typography
 
-<p align="center">
-<img src="./assets/images/page-shot.png">
- </p>
+    - Press Start 2P is the main font used for the website header and Sans Serif is used as the fallback font in case for any reason the font isn't being imported into the site correctly. [view](./assets/images/google-fonts.png)
 
-## Game Canvas
+- ### Imagery
 
-- The main gaming canvas is placed in the centre of the page. 
+    - Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It has a sci-fi, energetic aesthetic. [view](./assets/images/page-shot.png)
 
-- The games background image is a retro 2d alien planet. It adds an aesthetic look to the game with a colourful fun representation of an alien planet.
+- ### Game Canvas
 
-<p align="center">
-<img width="400px" height="350px" src="./assets/images/alien-attack.png">
-</p>
-        
-## Header
+    - The game background image is a retro 2d alien planet. It adds an aesthetic look to the game with a colourful fun representation of an alien planet.
 
-- When entering the website, users are instantly greeted with a clean and easy to read header.
+    <p align="center">
+    <img width="400px" height="350px" src="./assets/images/alien-attack.png">
+    </p>
+            
+- ### Header
 
+    - When entering the website, users are instantly greeted with a clean and easy to read header. [view](./assets/images/header-h1.png)
 
-<p align="center">
-<img src="./assets/images/header-h1.png">
-</p>
+- ### Mobile
 
-## Mobile View
+    - This is the layout for mobile and tablet devices when displayed vertically.
 
--  This is the layout for mobile and tablet devices when displayed vertically.
+    - The game has a touch control feature that allow users to press the screen to move the spacecraft up and down.
 
-## Touch game controls    
+    <p align="center">
+    <img width="360" height="500" src="./assets/images/mobile-devices.png">
+    </p>
 
--  The game has a touch control feature that allow users to press the screen to move the spacecraft up and down.
-
-<p align="center">
-      
-<img width="360" height="500" src="./assets/images/mobile-devices.png">
-</p>
-    
-## Colour Scheme
-
--  The Coolors palette was used to put together a colour scheme for the game. 
-
-<p align="center">
-<img width="100%"  src="./assets/images/Space-Attack-Pallet.png">
-</p>
-
-## Typography
-
--  Google Fonts "Press Start 2P" font family is used for the website header it adds a retro look to the game.
-
-<p align="center">
-<img src="./assets/images/google-fonts.png">
-</p>
 
 # Wireframes
 
